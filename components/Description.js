@@ -29,7 +29,7 @@ const Description = () => {
       </div>
 
       <div className=" flex flex-col bg-blend-overlay justify-center items-center sm:flex-col lg:flex-row  ">
-        <p className="  bg-gradient-to-l from-gray-500  via-gray-900 to-gray-500 flex justify-center items-center sm:w-11/12 lg:w-2/5  m-1 p-2 border-0 h-50  rounded-3xl text-2xl  text-justify">
+        <p className="  bg-gradient-to-l from-gray-500  via-gray-900 to-gray-500 flex justify-center items-center sm:w-11/12 lg:w-2/5  m-1 p-2 border-0 h-50  rounded-3xl text-2xl  text-center">
           J'ai découvert le développement web il y a bientôt un peu plus d'une
           année. Je cherchais à réaliser et obtenir un diplôme de niveau
           supérieur, pour une meilleure évolution professionnelle. Suite à des

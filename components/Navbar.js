@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
         <div className={largeur <= 767 ? "block" : "hidden"}>
           <button
-            onClick={menuToggle}
+            onClick={menuToggle} type="button"
             className="  to-red-800 rounded-3xl text-white bg-gray-900   "
           >
             {!toggle ? (
@@ -81,6 +81,7 @@ const Navbar = () => {
                 </svg>
               </>
             )}
+            <span className="sm:hidden">Menu</span> 
           </button>
         </div>
 
