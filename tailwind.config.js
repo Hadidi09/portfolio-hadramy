@@ -1,10 +1,5 @@
 module.exports = {
-  purge: [
-    './src/**/*.html',
-    './src/**/*.vue',
-    './src/**/*.jsx',
-    './src/**/*.js',
-  ],
+  purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     rotate: {
