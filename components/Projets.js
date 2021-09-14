@@ -34,16 +34,16 @@ const Projets = () => {
             />
 
             <div className="flex  p-1 flex-col">
-              <h4 className="w-80 text-2xl ">
+              <h3 className="w-80 text-2xl ">
                 Transformer une maquette en site web
-              </h4>
+              </h3>
               <div className="source flex flex-row w-full">
-                <h5 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
+                <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
                   code source
-                </h5>
-                <h5 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
+                </h4>
+                <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
                   lien
-                </h5>
+                </h4>
               </div>
             </div>
           </div>
@@ -61,16 +61,16 @@ const Projets = () => {
               />
 
               <div className="flex  p-1 flex-col">
-                <h4 className="w-80 text-xl ">
+                <h3 className="w-80 text-xl ">
                   OHMYFOOD Dynamiser une page web avec des animations CSS
-                </h4>
+                </h3>
                 <div className="source flex flex-row w-full">
-                  <h5 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
+                  <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
                     code source
-                  </h5>
-                  <h5 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
+                  </h4>
+                  <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
                     lien
-                  </h5>
+                  </h4>
                 </div>
               </div>
             </div>
@@ -89,16 +89,16 @@ const Projets = () => {
               />
 
               <div className="flex  p-1 flex-col">
-                <h4 className="w-80 text-xl ">
+                <h3 className="w-80 text-xl ">
                   Chouette Agence Optimiser un site web existant SEO
-                </h4>
+                </h3>
                 <div className="source flex flex-row w-full">
-                  <h5 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
+                  <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
                     code source
-                  </h5>
-                  <h5 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
+                  </h4>
+                  <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
                     lien
-                  </h5>
+                  </h4>
                 </div>
               </div>
             </div>
@@ -117,14 +117,14 @@ const Projets = () => {
               />
 
               <div className="flex  p-1 flex-col">
-                <h4 className="w-80 text-xl ">ORINOCO Site E-commerce</h4>
+                <h3 className="w-80 text-xl ">ORINOCO Site E-commerce</h3>
                 <div className="source flex flex-row w-full">
-                  <h5 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
+                  <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
                     code source
-                  </h5>
-                  <h5 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
+                  </h4>
+                  <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
                     lien
-                  </h5>
+                  </h4>
                 </div>
               </div>
             </div>
@@ -143,17 +143,17 @@ const Projets = () => {
               />
 
               <div className="flex  p-1 flex-col">
-                <h4 className="w-80 text-xl ">
+                <h3 className="w-80 text-xl ">
                   SoPEKOCKO Sauce Piquante API sécurisée pour une application
                   d'avis gastronomique
-                </h4>
+                </h3>
                 <div className="source flex flex-row w-full">
-                  <h5 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
+                  <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
                     code source
-                  </h5>
-                  <h5 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
+                  </h4>
+                  <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
                     lien
-                  </h5>
+                  </h4>
                 </div>
               </div>
             </div>
@@ -172,16 +172,16 @@ const Projets = () => {
               />
 
               <div className="flex  p-1 flex-col">
-                <h4 className="w-80 text-xl ">
+                <h3 className="w-80 text-xl ">
                   Groupomania Réseaux social d'entreprise
-                </h4>
+                </h3>
                 <div className="source flex flex-row w-full">
-                  <h5 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
+                  <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
                     code source
-                  </h5>
-                  <h5 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
+                  </h4>
+                  <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
                     lien
-                  </h5>
+                  </h4>
                 </div>
               </div>
             </div>

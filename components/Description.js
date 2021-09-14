@@ -8,7 +8,7 @@ const Description = () => {
   return (
     <div className="  text-white flex justify-center items-center flex-col  opacity-150 ">
       <div className="flex  flex-row bg-opacity-60 items-center justify-around backdrop-filter backdrop-blur-lg">
-        <h2
+        <h1
           className="text-2xl md:text-4xl font-bold text-transparent bg-clip-text w-2/5 
                     bg-gradient-to-t from-white  to-white"
         >
@@ -20,7 +20,7 @@ const Description = () => {
               loop: true,
             }}
           />
-        </h2>
+        </h1>
         <Image
           src={developer}
           alt="illustration avec une image de développeur"
