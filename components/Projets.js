@@ -16,7 +16,7 @@ const Projets = () => {
     <div className="contentprojet flex flex-col justify-center pt-6  lg:items-center ">
       <Competences />
       <div className="flex justify-center">
-        <h2 className=" bg-gray-800 text-white rounded-3xl px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-gray-900  ">
+        <h2 className=" bg-gray-800 text-white text-2xl rounded-3xl px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-gray-900  ">
           Mes Projets
         </h2>
       </div>
@@ -195,7 +195,7 @@ const Projets = () => {
         {/* <Carousel /> */}
       </div>
       <div className="flex justify-center">
-        <h2 className=" bg-gray-800 text-white rounded-3xl px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-gray-900  ">
+        <h2 className=" bg-gray-800 text-white text-2xl rounded-3xl px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-gray-900  ">
           Mon CV
         </h2>
       </div>

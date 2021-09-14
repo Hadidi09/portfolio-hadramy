@@ -81,7 +81,7 @@ const Navbar = () => {
                 </svg>
               </>
             )}
-            <span className="sm:hidden">Menu</span> 
+            <span className="hidden">Menu</span> 
           </button>
         </div>
 

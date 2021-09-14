@@ -6,6 +6,11 @@ const Layout = ({ children, page }) => {
   return (
     <div className="w-full grid m-0 p-0 ">
       <Head>
+      <meta charset="utf-8" />
+      <meta name="keywords" content="Portfolio du développeur web React | Nodejs " />
+      <meta name="description" content="N'DIAYE Cheikh El Hadramy Portfolio développeur web React | Nodejs" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+	    <meta name="robotos" content="follow" />
         <title>{page}</title>
       </Head>
       <header>

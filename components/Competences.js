@@ -18,7 +18,12 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Virtual, EffectCoverflo
 
 const Competences = () => {
     return (
-        <section  className="w-screen">
+      <section className="w-screen">
+       <div className="flex justify-center">
+        <h2 className=" bg-gray-800 text-white text-2xl rounded-3xl px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-gray-900  ">
+         Compétences
+        </h2>
+      </div>
             <Swiper
        
        slidesPerView={5}
