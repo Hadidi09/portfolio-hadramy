@@ -33,7 +33,7 @@ const Competences = () => {
           centeredSlides={true}
           spaceBetween={12}
            coverflowEffect={{
-               "rotate": 30,
+               "rotate": 45,
                "slideShadows": false
            }}
        onSwiper={(swiper) => console.log(swiper)}
