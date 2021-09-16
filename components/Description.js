@@ -2,7 +2,7 @@ import Image from "next/image";
 import developer from "../public/webdev.png";
 import Typewriter from "typewriter-effect";
 import hadra from "../public/photo-2.png";
-
+import Zoom from "react-reveal/Zoom";
 
 const Description = () => {
   return (
@@ -41,13 +41,13 @@ const Description = () => {
           5.
         </p>
         <div className=" ml-5">
-          
+          <Zoom>
             <Image
               src={hadra}
               alt="la photo d'Hadramy"
               className="  rounded-full w-20 h-20 p-10 transform transition-transform hover:rotate-360 duration-1000 ease-in-out cursor-pointer "
             />
-          
+          </Zoom>
         </div>
       </div>
     </div>
