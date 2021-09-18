@@ -13,7 +13,7 @@ const Resume = () => {
         </div>
         <div className="borderline border-l-4 h-auto ml-2.5  w-2 border-white">
           <p className="w-96 px-1 pb-5  text-white overflow-hidden">
-            2020-2021 Pontarlier Opensclassrooms
+            2020-2021 Pontarlier Opensclassrooms <br />
             <span className="text-2xl">1ère année STAPS</span>
             <br />
             Intégrer la maquette du site d’une agence web (HTML + CSS),
