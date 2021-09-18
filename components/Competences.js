@@ -40,9 +40,7 @@ const Competences = () => {
            onSlideChange={() => console.log('slide change')}
            className="swiper-container flex justify-start overflow-hidden m-5 hover:scale-150 focus:scale-x-150"
             >
-                  <div className="flex justify-center">
-                <h2 className=" bg-gray-800 text-white rounded-3xl px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-gray-900  ">Mes compétences</h2>
-            </div>
+               
             <ul className=" rounded-3xl ">
                 <SwiperSlide><Image src={Html5} width={150} height={150} quality={100} alt="photo de la maquette" className=" rounded-3xl " /></SwiperSlide>
                 <SwiperSlide><Image src={Css3} width={150} height={150} quality={100} alt="photo de la vie" className=" rounded-3xl " /></SwiperSlide>
@@ -59,19 +57,6 @@ const Competences = () => {
                 <li><Image /></li>
                 <li><Image /></li> */}
             </ul>
-           {/* <SwiperSlide className="w-1/2 m-2 flex justify-center ">
-               <Image src={raquette} alt="livre" width={300} height={250} quality={100} className=" rounded-3xl   object-cover " />
-           </SwiperSlide>
-           <SwiperSlide className="w-1/2 m-2 flex justify-center">
-               <Image src={Nature} alt="livre" width={300} height={250}  quality={100} className=" rounded-3xl   object-cover " />
-           </SwiperSlide>
-           <SwiperSlide className="w-1/2 m-2 flex justify-center">
-               <Image src={Dev} alt="livre" width={300} height={250}  quality={100} className=" rounded-3xl   object-cover " />
-           </SwiperSlide>
-           <SwiperSlide className="w-1/2 m-2 flex justify-center">
-               <Image src={CV} alt="livre" width={300} height={250}  quality={100} className=" rounded-3xl   object-cover " />
-           </SwiperSlide> */}
-      
      </Swiper>
            
         </section>
