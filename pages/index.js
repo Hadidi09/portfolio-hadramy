@@ -10,7 +10,9 @@ export default function Home() {
   return (
     <Layout page="index.js">
       <Description />
+      <Competences />
       <Projets />
+      <Resume />
     </Layout>
   );
 }

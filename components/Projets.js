@@ -14,15 +14,15 @@ import Competences from "./Competences";
 const Projets = () => {
   return (
     <div className="contentprojet flex flex-col justify-center pt-6  lg:items-center ">
-      <Competences />
+      
       <div className="flex justify-center">
         <h2 className=" bg-gray-800 text-white text-2xl rounded-3xl my-8 px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-gray-900  ">
           Mes Projets
         </h2>
       </div>
 
-      <div className="card-maquette  md:grid grid-cols-2 gap-8 sm:flex flex-col justify-center items-center sm:my-8">
-        <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform hover:scale-110 ">
+      <div className="card-maquette  md:grid grid-cols-2  gap-8 sm:flex flex-col justify-center items-center sm:my-8">
+        <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform hover:scale-110  ">
           <div className="content-maquette  ">
             <Image
               src={raquette}
@@ -193,7 +193,7 @@ const Projets = () => {
           Mon CV
         </h2>
       </div>
-      <Resume />
+      
     </div>
   );
 };
