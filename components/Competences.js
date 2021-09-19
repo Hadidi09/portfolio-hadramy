@@ -51,11 +51,6 @@ const Competences = () => {
                 <SwiperSlide><Image src={Node} width={150} height={150} quality={100} alt="photo de Node" className=" rounded-3xl "/></SwiperSlide>
                 <SwiperSlide><Image src={Mongodb} width={150} height={150} quality={100} alt="photo de Mongodb" className=" rounded-3xl "/></SwiperSlide>
                 <SwiperSlide><Image src={Mysql} width={150} height={150} quality={100} alt="photo de Mysql" className=" rounded-3xl "/></SwiperSlide>
-                
-                {/* <li><Image /></li>
-                <li><Image /></li>
-                <li><Image /></li>
-                <li><Image /></li> */}
             </ul>
      </Swiper>
            

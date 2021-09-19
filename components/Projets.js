@@ -7,7 +7,6 @@ import MyFood from "../public/myfood.png";
 import Groupomania from "../public/groupomania.png";
 import Sopiquant from "../public/sopiquant.png";
 import Chouette from "../public/chouette-agence.png";
-import Fade from "react-reveal/Fade";
 import Resume from "./Resume";
 import Competences from "./Competences";
 
@@ -49,7 +48,7 @@ const Projets = () => {
           </div>
         </div>
         <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform hover:scale-110 ">
-          <Fade right>
+          
             <div className="content-maquette  ">
               <Image
                 src={MyFood}
@@ -74,10 +73,10 @@ const Projets = () => {
                 </div>
               </div>
             </div>
-          </Fade>
+          
         </div>
         <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform hover:scale-110 ">
-          <Fade right>
+          
             <div className="content-maquette  ">
               <Image
                 src={Chouette}
@@ -102,10 +101,10 @@ const Projets = () => {
                 </div>
               </div>
             </div>
-          </Fade>
+          
         </div>
         <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform hover:scale-110 ">
-          <Fade right>
+          
             <div className="content-maquette  ">
               <Image
                 src={OrinocoJs}
@@ -128,10 +127,10 @@ const Projets = () => {
                 </div>
               </div>
             </div>
-          </Fade>
+          
         </div>
         <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform hover:scale-110 ">
-          <Fade right>
+          
             <div className="content-maquette  ">
               <Image
                 src={Sopiquant}
@@ -157,10 +156,10 @@ const Projets = () => {
                 </div>
               </div>
             </div>
-          </Fade>
+          
         </div>
         <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform hover:scale-110 ">
-          <Fade right>
+          
             <div className="content-maquette  ">
               <Image
                 src={Groupomania}
@@ -185,7 +184,7 @@ const Projets = () => {
                 </div>
               </div>
             </div>
-          </Fade>
+          
         </div>
       </div>
       <div className="flex justify-center">
