@@ -9,13 +9,13 @@ import Resume from "../components/Resume";
 
 export default function Home() {
   return (
-    <React.Fragment>
-      <Layout page="index.js">
-        <Description />
-        <Competences />
-        <Projets />
-        <Resume />
-      </Layout>
-    </React.Fragment>
+   
+    <Layout page="index.js">
+      <Description />
+      <Competences />
+      <Projets />
+      <Resume />
+    </Layout>
+   
   );
 }
