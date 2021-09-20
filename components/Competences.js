@@ -38,7 +38,7 @@ const Competences = () => {
            }}
        onSwiper={(swiper) => console.log(swiper)}
            onSlideChange={() => console.log('slide change')}
-           className="swiper-container flex justify-start overflow-hidden m-5 hover:scale-150 focus:scale-x-150"
+           className="swiper-container flex md:justify-start overflow-hidden sm:justify-center m-5 hover:scale-150 focus:scale-x-150"
             >
                
             <ul className=" rounded-3xl ">

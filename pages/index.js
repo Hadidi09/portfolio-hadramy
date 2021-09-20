@@ -10,7 +10,7 @@ import Resume from "../components/Resume";
 export default function Home() {
   return (
    
-    <Layout page="index.js">
+    <Layout page="Portfolio">
       <Description />
       <Competences />
       <Projets />
