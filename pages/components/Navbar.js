@@ -90,24 +90,24 @@ const Navbar = () => {
             largeur >= 768 ? "inline-grid grid-cols-4 gap-x-2 p-4 " : "hidden"
           }
         >
-          <Link href="/">
+          <Link href="#description">
             <button className="px-2 rounded-3xl bg-gray-900 text-white">
               A propos
             </button>
           </Link>
 
-          <Link href="/">
+          <Link href="#competences">
             <button className="px-2 rounded-3xl bg-gray-900 text-white">
               Compétences
             </button>
           </Link>
 
-          <Link href="/">
+          <Link href="#projets">
             <button className="px-2 rounded-3xl bg-gray-900 text-white">
               Projets
             </button>
           </Link>
-          <Link href="/">
+          <Link href="#resume">
             <button className="px-2 rounded-3xl bg-gray-900 text-white">
               Expériences
             </button>
@@ -126,24 +126,24 @@ const Navbar = () => {
         >
           <div className=" flex justify-center">
             <div className="navigation flex justify-center flex-col ">
-            <Link href="/">
+            <Link href="#description">
             <button className="px-2 my-2 rounded-3xl bg-gray-900 text-white">
               A propos
             </button>
           </Link>
 
-          <Link href="/">
+          <Link href="#competences">
             <button className="px-2 my-2 rounded-3xl bg-gray-900 text-white">
               Compétences
             </button>
           </Link>
 
-          <Link href="/">
+          <Link href="#projets">
             <button className="px-2 my-2 rounded-3xl bg-gray-900 text-white">
               Projets
             </button>
           </Link>
-          <Link href="/">
+          <Link href="#resume">
             <button className="px-2 my-2 rounded-3xl bg-gray-900 text-white">
               Expériences
             </button>

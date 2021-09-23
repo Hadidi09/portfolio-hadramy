@@ -1,18 +1,18 @@
 import Carousel from "./Carousel";
 //import MaquetteCV from "./MaquetteCV";
 import Image from "next/image";
-import raquette from "../public/test-maquette.png";
-import OrinocoJs from "../public/orinocojs.png";
-import MyFood from "../public/myfood.png";
-import Groupomania from "../public/groupomania.png";
-import Sopiquant from "../public/sopiquant.png";
-import Chouette from "../public/chouette-agence.png";
-import Resume from "./Resume";
-import Competences from "./Competences";
+import raquette from "../../public/test-maquette.png";
+import OrinocoJs from "../../public/orinocojs.png";
+import MyFood from "../../public/myfood.png";
+import Groupomania from "../../public/groupomania.png";
+import Sopiquant from "../../public/sopiquant.png";
+import Chouette from "../../public/chouette-agence.png";
+import Resume from "./resume";
+import Competences from "./competences";
 
 const Projets = () => {
   return (
-    <div className="contentprojet flex flex-col justify-center pt-6  lg:items-center ">
+    <div className="contentprojet flex flex-col justify-center pt-6  lg:items-center " id="projets">
       
       <div className="flex justify-center">
         <h2 className=" bg-gray-800 text-white text-2xl rounded-3xl my-8 px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-gray-900  ">

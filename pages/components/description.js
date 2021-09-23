@@ -1,12 +1,12 @@
 import Image from "next/image";
-import developer from "../public/webdev.png";
+import developer from "../../public/webdev.png";
 import Typewriter from "typewriter-effect";
-import hadra from "../public/photo-2.png";
+import hadra from "../../public/photo-2.png";
 
 
 const Description = () => {
   return (
-    <div className="  text-white flex justify-center items-center flex-col  opacity-150 ">
+    <div className="  text-white flex justify-center items-center flex-col  opacity-150 " id="description">
       <div className="flex  flex-row bg-opacity-60 items-center justify-around backdrop-filter backdrop-blur-lg">
         <h1
           className="text-2xl md:text-4xl font-bold text-transparent bg-clip-text w-2/5 
@@ -29,7 +29,7 @@ const Description = () => {
       </div>
 
       <div className=" flex flex-col bg-blend-overlay justify-center items-center sm:flex-col lg:flex-row  ">
-        <p className="  bg-gradient-to-l from-gray-500  via-gray-900 to-gray-500 flex justify-center items-center sm:w-11/12 lg:w-2/5  m-1 p-2 border-0 h-50  rounded-3xl text-2xl  text-center">
+        <p className="  bg-gradient-to-br from-gray-500 via-gray-700 to-gray-600 flex justify-center items-center sm:w-11/12 lg:w-2/5  m-1 p-2 border-0 h-50  rounded-3xl text-2xl  text-center">
           J'ai découvert le développement web il y a bientôt un peu plus d'une
           année. Je cherchais à réaliser et obtenir un diplôme de niveau
           supérieur, pour une meilleure évolution professionnelle. Suite à des
