@@ -1,5 +1,4 @@
 import Carousel from "./Carousel";
-//import MaquetteCV from "./MaquetteCV";
 import Image from "next/image";
 import raquette from "../../public/test-maquette.png";
 import OrinocoJs from "../../public/orinocojs.png";
@@ -7,8 +6,7 @@ import MyFood from "../../public/myfood.png";
 import Groupomania from "../../public/groupomania.png";
 import Sopiquant from "../../public/sopiquant.png";
 import Chouette from "../../public/chouette-agence.png";
-import Resume from "./resume";
-import Competences from "./competences";
+import Link from "next/link";
 
 const Projets = () => {
   return (
@@ -38,10 +36,14 @@ const Projets = () => {
               </h3>
               <div className="source flex flex-row w-full">
                 <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
-                  code source
+                  <Link href="https://github.com/Hadidi09/projet_cv">
+                    <a target="_blank" rel="noopener" >code source</a>
+                  </Link>
                 </h4>
                 <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
-                  lien
+                 <Link href="https://hadidi09.github.io/projet_cv/">
+                    <a target="_blank" rel="noopener" >lien</a>
+                  </Link>
                 </h4>
               </div>
             </div>
@@ -65,10 +67,15 @@ const Projets = () => {
                 </h3>
                 <div className="source flex flex-row w-full">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
-                    code source
+                    <Link href="https://github.com/Hadidi09/N-DIAYE-cheikh-el-Hadramy_3_01-07-2020">
+                      <a target="_blank" rel="noopener" >code source</a>
+                    </Link>
+                      
                   </h4>
                   <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
-                    lien
+                    <Link href="https://hadidi09.github.io/N-DIAYE-cheikh-el-Hadramy_3_01-07-2020/">
+                      <a target="_blank" rel="noopener" >lien</a>
+                    </Link>
                   </h4>
                 </div>
               </div>
@@ -93,10 +100,14 @@ const Projets = () => {
                 </h3>
                 <div className="source flex flex-row w-full">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
-                    code source
+                    <Link href="https://github.com/Hadidi09/Chouette-version-2">
+                      <a target="_blank" rel="noopener" >code source</a>
+                    </Link>
                   </h4>
                   <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
-                    lien
+                    <Link href="https://hadidi09.github.io/Chouette-version-2/">
+                      <a target="_blank" rel="noopener" >lien</a>
+                    </Link>
                   </h4>
                 </div>
               </div>
@@ -119,10 +130,14 @@ const Projets = () => {
                 <h3 className="w-72  h-36 text-2xl text-white">ORINOCO <br /> Site E-commerce</h3>
                 <div className="source flex flex-row w-full">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
-                    code source
+                  <Link href="https://github.com/Hadidi09/Projet_5_Orinoco_JS">
+                    <a target="_blank" rel="noopener" >code source</a>
+                  </Link>
                   </h4>
                   <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
-                    lien
+                    <Link href="https://projet-5-orinoco-js.vercel.app/">
+                      <a target="_blank" rel="noopener" >lien</a>
+                    </Link>
                   </h4>
                 </div>
               </div>
@@ -148,10 +163,14 @@ const Projets = () => {
                 </h3>
                 <div className="source flex flex-row w-full">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
-                    code source
+                    <Link href="https://github.com/Hadidi09/P6-sopekocko">
+                      <a target="_blank" rel="noopener" >code source</a>
+                    </Link>
                   </h4>
                   <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
-                    lien
+                    <Link href="https://github.com/Hadidi09/P6-sopekocko">
+                      <a target="_blank" rel="noopener" >lien</a>
+                    </Link>
                   </h4>
                 </div>
               </div>
@@ -176,10 +195,14 @@ const Projets = () => {
                 </h3>
                 <div className="source flex flex-row w-full">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
-                    code source
+                    <Link href="https://github.com/Hadidi09/Projet7-grouppomania">
+                      <a target="_blank" rel="noopener" >code source</a>
+                    </Link>
                   </h4>
                   <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 ">
-                    lien
+                    <Link href="https://github.com/Hadidi09/Projet7-grouppomania">
+                      <a target="_blank" rel="noopener" >lien</a>
+                    </Link>
                   </h4>
                 </div>
               </div>
