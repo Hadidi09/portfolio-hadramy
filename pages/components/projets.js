@@ -1,4 +1,3 @@
-import Carousel from "./Carousel";
 import Image from "next/image";
 import Raquette from "../../public/test-maquette.png";
 import OrinocoJs from "../../public/orinocojs.png";
