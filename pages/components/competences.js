@@ -18,12 +18,12 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Virtual, EffectCoverflo
 
 const Competences = () => {
     return (
-      <section className="w-screen mt-20 "  id="competences">
-       <div className="flex justify-center">
-        <h2 className=" bg-gray-800 text-white text-2xl rounded-3xl px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-gray-900  ">
-         Compétences
-        </h2>
-      </div>
+      <section className="w-screen mt-20  "  id="competences">
+       <div className="flex justify-center items-center">
+            <h2 className=" bg-gray-800 text-white text-2xl rounded-3xl px-4 py-2 cursor-pointer hover:bg-gray-100 hover:text-gray-900  ">
+            Compétences
+            </h2>
+       </div>
             <Swiper
        
        slidesPerView={5}
@@ -32,17 +32,36 @@ const Competences = () => {
            effect={'coverflow'}
            grabCursor={true}
           centeredSlides={true}
-          spaceBetween={12}
+                spaceBetween={12}
+                breakpoints={{
+                     // when window width is >= 320px
+                     320: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                      },
+                      // when window width is >= 480px
+                      480: {
+                        slidesPerView: 3,
+                        spaceBetween: 30
+                      },
+                      // when window width is >= 640px
+                      640: {
+                        slidesPerView: 4,
+                        spaceBetween: 40
+                      }
+                }
+                   
+                  }
            coverflowEffect={{
                "rotate": 30,
                "slideShadows": false
            }}
        onSwiper={(swiper) => console.log(swiper)}
            onSlideChange={() => console.log('slide change')}
-           className="swiper-container   h-52 m-5 bg-gradient-to-l from-gray-300 via-gray-600 to-gray-600 hover:scale-150 focus:scale-x-150"
+           className="swiper-container    h-52 my-5 bg-gradient-to-l from-gray-300 via-gray-600 to-gray-600 hover:scale-150 focus:scale-x-150"
             >
                
-            <ul className=" rounded-3xl  ">
+            <ul className=" rounded-3xl m-0  ">
                 <SwiperSlide className="pt-4"><Image src={Html5} width={150} height={150} quality={100} alt="photo de la maquette" className=" rounded-3xl  " /></SwiperSlide>
                 <SwiperSlide className="pt-4"><Image src={Css3} width={150} height={150} quality={100} alt="photo de la vie" className=" rounded-3xl  " /></SwiperSlide>
                 <SwiperSlide className="pt-4"><Image src={Javascript} width={150} height={150} quality={100} alt="photo de java" className=" rounded-3xl  " /></SwiperSlide>
