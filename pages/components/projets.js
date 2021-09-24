@@ -1,6 +1,6 @@
 import Carousel from "./Carousel";
 import Image from "next/image";
-import raquette from "../../public/test-maquette.png";
+import Raquette from "../../public/test-maquette.png";
 import OrinocoJs from "../../public/orinocojs.png";
 import MyFood from "../../public/myfood.png";
 import Groupomania from "../../public/groupomania.png";
@@ -22,7 +22,7 @@ const Projets = () => {
         <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform hover:scale-110  ">
           <div className="content-maquette  ">
             <Image
-              src={raquette}
+              src={Raquette}
               alt="maquette responsive"
               width={300}
               height={250}
