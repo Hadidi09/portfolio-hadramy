@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Maquette from "../public/test-maquette.png";
+import Maquette from "../../public/test-maquette.png";
 
 const MaquetteCV = () => {
   return (

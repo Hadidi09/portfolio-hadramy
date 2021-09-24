@@ -1,6 +1,6 @@
 import Carousel from "./Carousel";
 import Image from "next/image";
-import Raquette from "../../public/space.jpg";
+import Raquette from "../../public/test-maquette.png";
 import OrinocoJs from "../../public/orinocojs.png";
 import MyFood from "../../public/myfood.png";
 import Groupomania from "../../public/groupomania.png";
