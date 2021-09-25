@@ -91,24 +91,24 @@ const Navbar = () => {
           }
         >
           <Link href="#description">
-            <button className="px-2 rounded-3xl bg-gray-900 text-white">
+            <button className="p-2 mx-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               A propos
             </button>
           </Link>
 
           <Link href="#competences">
-            <button className="px-2 rounded-3xl bg-gray-900 text-white">
+            <button className="p-2 mx-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               Compétences
             </button>
           </Link>
 
           <Link href="#projets">
-            <button className="px-2 rounded-3xl bg-gray-900 text-white">
+            <button className="p-2 mx-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               Projets
             </button>
           </Link>
           <Link href="#resume">
-            <button className="px-2 rounded-3xl bg-gray-900 text-white">
+            <button className="p-2 mx-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               Expériences
             </button>
           </Link>
@@ -127,24 +127,24 @@ const Navbar = () => {
           <div className=" flex justify-center">
             <div className="navigation flex justify-center flex-col ">
             <Link href="#description">
-            <button className="px-2 my-2 rounded-3xl bg-gray-900 text-white">
+            <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               A propos
             </button>
           </Link>
 
           <Link href="#competences">
-            <button className="px-2 my-2 rounded-3xl bg-gray-900 text-white">
+            <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               Compétences
             </button>
           </Link>
 
           <Link href="#projets">
-            <button className="px-2 my-2 rounded-3xl bg-gray-900 text-white">
+            <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               Projets
             </button>
           </Link>
           <Link href="#resume">
-            <button className="px-2 my-2 rounded-3xl bg-gray-900 text-white">
+            <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               Expériences
             </button>
           </Link>
