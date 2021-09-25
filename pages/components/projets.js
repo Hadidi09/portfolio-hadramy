@@ -33,7 +33,7 @@ const Projets = () => {
               <h3 className="w-72  h-36 text-2xl text-white ">
                 Transformer une maquette en site web
               </h3>
-              <div className="source flex flex-row w-full">
+              <div className="source flex flex-row w-96">
                 <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
                   <Link href="https://github.com/Hadidi09/projet_cv">
                     <a target="_blank" rel="noopener" >code source</a>
@@ -64,7 +64,7 @@ const Projets = () => {
                 <h3 className="w-72  h-36 text-2xl text-white ">
                   OHMYFOOD <br /> Dynamiser une page web avec des animations CSS
                 </h3>
-                <div className="source flex flex-row w-full">
+                <div className="source flex flex-row w-96">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
                     <Link href="https://github.com/Hadidi09/N-DIAYE-cheikh-el-Hadramy_3_01-07-2020">
                       <a target="_blank" rel="noopener" >code source</a>
@@ -97,7 +97,7 @@ const Projets = () => {
                 <h3 className="w-72  h-36 text-2xl text-white ">
                   Chouette Agence <br /> Optimiser un site web existant SEO
                 </h3>
-                <div className="source flex flex-row w-full">
+                <div className="source flex flex-row w-96">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
                     <Link href="https://github.com/Hadidi09/Chouette-version-2">
                       <a target="_blank" rel="noopener" >code source</a>
@@ -127,7 +127,7 @@ const Projets = () => {
  
               <div className="flex  p-1 flex-col">
                 <h3 className="w-72  h-36 text-2xl text-white">ORINOCO <br /> Site E-commerce</h3>
-                <div className="source flex flex-row w-full">
+                <div className="source flex flex-row w-96">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
                   <Link href="https://github.com/Hadidi09/Projet_5_Orinoco_JS">
                     <a target="_blank" rel="noopener" >code source</a>
@@ -160,7 +160,7 @@ const Projets = () => {
                   So Pekocko  API sécurisée<br /> pour une application
                   d'avis gastronomique
                 </h3>
-                <div className="source flex flex-row w-full">
+                <div className="source flex flex-row w-96">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
                     <Link href="https://github.com/Hadidi09/P6-sopekocko">
                       <a target="_blank" rel="noopener" >code source</a>
@@ -192,7 +192,7 @@ const Projets = () => {
                 <h3 className="w-72  h-36 text-2xl text-white ">
                   Groupomania <br /> Réseaux social d'entreprise
                 </h3>
-                <div className="source flex flex-row w-full">
+                <div className="source flex flex-row w-96">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl hover:bg-gray-100 hover:text-gray-900 focus:ring-opacity-25 focus:ring-gray-500  ">
                     <Link href="https://github.com/Hadidi09/Projet7-grouppomania">
                       <a target="_blank" rel="noopener" >code source</a>

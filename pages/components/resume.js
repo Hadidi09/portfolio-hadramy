@@ -5,8 +5,8 @@ import { faFileContract } from "@fortawesome/free-solid-svg-icons";
 
 const Resume = () => {
   return (
-    <div className=" sm:flex flex-col justify-center items-start text-center ml-12  md:ml-48 my-5  lg:ml-60  lg:flex-row   " id="resume">
-      <div className="resume flex items-start  flex-col col-start-2 col-span-3 lg:mr-80 ">
+    <div className=" sm:flex flex-col   text-center   pr-28 sm:mr-0  my-5  lg:ml-60  lg:flex-row   " id="resume">
+      <div className="resume flex items-start  flex-col md:col-start-2 md:col-span-3 lg:mr-80 ">
         <h3 className="text-2xl text-white mb-2">Formation</h3>
         <div className="rounded-6xl bg-gray-900 text-white w-6 ">
           <FontAwesomeIcon icon={faAward} />
@@ -69,7 +69,7 @@ const Resume = () => {
           </p>
         </div>
       </div>
-      <div className="resume flex items-start flex-col col-start-5  lg:mr-80   ">
+      <div className="resume flex items-start flex-col md:col-start-5  lg:mr-80   ">
         <h3 className="text-2xl text-white w-72 mb-2">
           Expérience professionnelle
         </h3>

@@ -6,10 +6,10 @@ import hadra from "../../public/photo-2.png";
 
 const Description = () => {
   return (
-    <div className="  text-white flex justify-center items-center flex-col  opacity-150 " id="description">
+    <div className="  text-white flex justify-center items-center flex-col   opacity-150 " id="description">
       <div className="flex  flex-row bg-opacity-60 items-center justify-around backdrop-filter backdrop-blur-lg">
         <h1
-          className="text-2xl md:text-4xl font-bold text-transparent bg-clip-text w-2/5 
+          className="text-2xl md:text-4xl font-bold text-transparent bg-clip-text w-3/4 md:w-2/5
                     bg-gradient-to-t from-white  to-white"
         >
           N'DIAYE Cheikh El Hadramy
@@ -24,7 +24,7 @@ const Description = () => {
         <Image
           src={developer}
           alt="illustration avec une image de développeur"
-          className="sm:w-11/12 md:w-full"
+          className="w-1/4 sm:w-11/12 md:w-full"
         />
       </div>
 
