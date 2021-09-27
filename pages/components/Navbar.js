@@ -12,7 +12,7 @@ const Navbar = () => {
   useEffect(() => {
     const setWidthChange = () => {
       setLargeur(window.innerWidth);
-      if (window.innerWidth > 769) {
+      if (window.innerWidth > 1000) {
         setToggle(false);
         console.log("resized");
       }
@@ -41,7 +41,7 @@ const Navbar = () => {
             />
           </svg>
         </div>
-        <div className={largeur <= 767 ? "block" : "hidden"}>
+        <div className={largeur <= 1000 ? "block" : "hidden"}>
           <button
             onClick={menuToggle} type="button"
             className="  to-red-800 rounded-3xl text-white bg-gray-900   "
@@ -87,28 +87,28 @@ const Navbar = () => {
 
         <div
           className={
-            largeur >= 768 ? "inline-grid grid-cols-4 gap-x-2 p-4 " : "hidden"
+            largeur >= 1001 ? "inline-grid grid-cols-4 gap-x-2 p-4  " : "hidden"
           }
         >
           <Link href="#description">
-            <button className="p-2 mx-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
+            <button className="p-2 mx-2 transition  duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               A propos
             </button>
           </Link>
 
           <Link href="#competences">
-            <button className="p-2 mx-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
+            <button className="p-2 mx-2 transition  duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               Compétences
             </button>
           </Link>
 
           <Link href="#projets">
-            <button className="p-2 mx-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
+            <button className="p-2 mx-2 transition  duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               Projets
             </button>
           </Link>
           <Link href="#resume">
-            <button className="p-2 mx-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
+            <button className="p-2 mx-2 transition  duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               Expériences
             </button>
           </Link>
