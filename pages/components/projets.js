@@ -12,7 +12,7 @@ const Projets = () => {
     <div className="contentprojet flex flex-col justify-center pt-6  lg:items-center " id="projets">
       
       <div className="flex justify-center">
-        <h2 className=" bg-gray-800 text-white text-2xl rounded-3xl px-4 py-2 cursor-pointer transition duration-300 ease-in transform hover:bg-gray-500 hover:text-white hover:scale-90   uppercase  my-8">
+        <h2 className="headtwo bg-gray-800 text-white text-2xl rounded-3xl px-4 py-2 cursor-pointer transition duration-300 ease-in transform hover:bg-gray-500 hover:text-white hover:scale-90   uppercase  my-8">
           Mes Projets
         </h2>
       </div>
@@ -210,7 +210,7 @@ const Projets = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <h2 className=" bg-gray-800 text-white text-2xl rounded-3xl my-8  px-4 py-2 cursor-pointer transition duration-300 ease-in transform hover:bg-gray-500 hover:text-white hover:scale-90 uppercase">
+        <h2 className="headtwo bg-gray-800 text-white text-2xl rounded-3xl my-8  px-4 py-2 cursor-pointer transition duration-300 ease-in transform hover:bg-gray-500 hover:text-white hover:scale-90 uppercase">
           Mon CV
         </h2>
       </div>

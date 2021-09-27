@@ -91,7 +91,7 @@ const Navbar = () => {
           }
         >
           <Link href="#description">
-            <button className="p-2 mx-2 transition  duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
+            <button className="p-2 mx-2 transition  duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase after:block after:bg-blue-500 ">
               A propos
             </button>
           </Link>
