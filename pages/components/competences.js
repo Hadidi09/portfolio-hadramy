@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from "react-awesome-reveal";
 import Image from 'next/image'
 import Html5 from '../../public/html5.png'
 import Css3 from '../../public/css3.png';
@@ -23,57 +24,60 @@ const Competences = () => {
             <h2 className=" headtwo bg-gray-800 text-white text-2xl rounded-3xl px-4 py-2 cursor-pointer transition duration-300 ease-in transform hover:bg-gray-500 hover:text-white hover:scale-90 -webkit-   uppercase  ">
             Compétences
             </h2>
-       </div>
+        </div>
+        <Fade cascade delay={ 300 } duration={1200} direction={'top-left'}>
             <Swiper
-       
-       slidesPerView={5}
-                pagination={{ clickable: true, type: 'bullets' }}
-               
-           effect={'coverflow'}
-           grabCursor={true}
-          centeredSlides={true}
-                spaceBetween={12}
-                breakpoints={{
-                     // when window width is >= 320px
-                     320: {
-                        slidesPerView: 2,
-                        spaceBetween: 20
-                      },
-                      // when window width is >= 480px
-                      480: {
-                        slidesPerView: 3,
-                        spaceBetween: 30
-                      },
-                      // when window width is >= 640px
-                      640: {
-                        slidesPerView: 4,
-                        spaceBetween: 40
-                      }
-                }
-                   
+          
+                 slidesPerView={5}
+            pagination={{ clickable: true, type: 'bullets' }}
+
+                  effect={'coverflow'}
+                  grabCursor={true}
+                  centeredSlides={true}
+                  spaceBetween={12}
+                  breakpoints={{
+                  // when window width is >= 320px
+                  320: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                  },
+                  // when window width is >= 480px
+                  480: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                  },
+                  // when window width is >= 640px
+                  640: {
+                    slidesPerView: 4,
+                    spaceBetween: 40
                   }
-           coverflowEffect={{
-               "rotate": 30,
-               "slideShadows": false
-           }}
-       onSwiper={(swiper) => console.log(swiper)}
-           onSlideChange={() => console.log('slide change')}
-           className="swiper-container    h-52 my-5 bg-gradient-to-l from-gray-300 via-gray-600 to-gray-600 hover:scale-150 focus:scale-x-150"
-            >
-               
-            <ul className=" rounded-3xl m-0  ">
-                <SwiperSlide className="pt-4"><Image src={Html5} width={150} height={150} quality={100} alt="photo de la maquette" className=" rounded-3xl  " /></SwiperSlide>
-                <SwiperSlide className="pt-4"><Image src={Css3} width={150} height={150} quality={100} alt="photo de la vie" className=" rounded-3xl  " /></SwiperSlide>
-                <SwiperSlide className="pt-4"><Image src={Javascript} width={150} height={150} quality={100} alt="photo de java" className=" rounded-3xl  " /></SwiperSlide>
-                <SwiperSlide className="pt-4"><Image src={Bootstrap} width={150} height={150} quality={100} alt="photo de bootstrap" className=" rounded-3xl  " /></SwiperSlide>
-                <SwiperSlide className="pt-4"><Image src={Sass} width={150} height={150} quality={100} alt="photo de Sass" className=" rounded-3xl  "/></SwiperSlide>
-                <SwiperSlide className="pt-4"><Image src={Tailwind} width={150} height={150} quality={100} alt="photo de Tailwind" className=" rounded-3xl  "/></SwiperSlide>
-                <SwiperSlide className="pt-4"><Image src={Node} width={150} height={150} quality={100} alt="photo de Node" className=" rounded-3xl  "/></SwiperSlide>
-                <SwiperSlide className="pt-4"><Image src={Mongodb} width={150} height={150} quality={100} alt="photo de Mongodb" className=" rounded-3xl  "/></SwiperSlide>
-                <SwiperSlide className="pt-4"><Image src={Mysql} width={150} height={150} quality={100} alt="photo de Mysql" className=" rounded-3xl  "/></SwiperSlide>
-            </ul>
-     </Swiper>
-           
+                  }
+                      
+                    }
+              coverflowEffect={{
+                  "rotate": 30,
+                  "slideShadows": false
+              }}
+          onSwiper={(swiper) => console.log(swiper)}
+              onSlideChange={() => console.log('slide change')}
+              className="swiper-container    h-52 my-5 bg-gradient-to-l from-gray-300 via-gray-600 to-gray-600 hover:scale-150 focus:scale-x-150"
+                >
+                  
+                <ul className=" rounded-3xl m-0  ">
+                    <SwiperSlide className="pt-4"><Image src={Html5} width={150} height={150} quality={100} alt="photo de la maquette" className=" rounded-3xl  " /></SwiperSlide>
+                    <SwiperSlide className="pt-4"><Image src={Css3} width={150} height={150} quality={100} alt="photo de la vie" className=" rounded-3xl  " /></SwiperSlide>
+                    <SwiperSlide className="pt-4"><Image src={Javascript} width={150} height={150} quality={100} alt="photo de java" className=" rounded-3xl  " /></SwiperSlide>
+                    <SwiperSlide className="pt-4"><Image src={Bootstrap} width={150} height={150} quality={100} alt="photo de bootstrap" className=" rounded-3xl  " /></SwiperSlide>
+                    <SwiperSlide className="pt-4"><Image src={Sass} width={150} height={150} quality={100} alt="photo de Sass" className=" rounded-3xl  "/></SwiperSlide>
+                    <SwiperSlide className="pt-4"><Image src={Tailwind} width={150} height={150} quality={100} alt="photo de Tailwind" className=" rounded-3xl  "/></SwiperSlide>
+                    <SwiperSlide className="pt-4"><Image src={Node} width={150} height={150} quality={100} alt="photo de Node" className=" rounded-3xl  "/></SwiperSlide>
+                    <SwiperSlide className="pt-4"><Image src={Mongodb} width={150} height={150} quality={100} alt="photo de Mongodb" className=" rounded-3xl  "/></SwiperSlide>
+                    <SwiperSlide className="pt-4"><Image src={Mysql} width={150} height={150} quality={100} alt="photo de Mysql" className=" rounded-3xl  "/></SwiperSlide>
+                </ul>
+        </Swiper>
+              
+        </Fade>
+        
         </section>
     );
 };

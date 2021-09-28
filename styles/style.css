@@ -2,3 +2,29 @@
 button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+// media querys
+body {
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 280px) and (max-width: 640px) {
+  body {
+    zoom: 50%;
+  }
+}
+@media (min-width: 641px) and (max-width: 768px) {
+  body {
+    zoom: 65%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    zoom: 70%;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    zoom: 100%;
+  }
+}
