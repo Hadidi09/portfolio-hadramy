@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&display=swap");
+
 .headtwo,
 button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -7,6 +9,7 @@ button {
 body {
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
 }
 @media (min-width: 280px) and (max-width: 640px) {
   body {

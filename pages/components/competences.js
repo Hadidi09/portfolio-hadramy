@@ -21,11 +21,11 @@ const Competences = () => {
     return (
       <section className="w-screen mt-20  "  id="competences">
        <div className="flex justify-center items-center">
-            <h2 className=" headtwo bg-gray-800 text-white text-2xl rounded-3xl px-4 py-2 cursor-pointer transition duration-300 ease-in transform hover:bg-gray-500 hover:text-white hover:scale-90 -webkit-   uppercase  ">
+            <h2 className=" headtwo  bg-gray-800 text-white text-2xl rounded-3xl px-4 py-2 cursor-pointer transition duration-300 ease-in transform hover:bg-gray-500 hover:text-white hover:scale-90 -webkit-   uppercase  ">
             Compétences
             </h2>
         </div>
-        <Fade cascade delay={ 300 } duration={1200} direction={'top-left'}>
+        <Fade cascade delay={ 300 }  duration={2000} direction={'top-left'}>
             <Swiper
           
                  slidesPerView={5}

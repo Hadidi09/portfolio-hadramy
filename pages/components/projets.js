@@ -13,13 +13,13 @@ const Projets = () => {
     <div className="contentprojet flex flex-col justify-center pt-6  lg:items-center " id="projets">
       
       <div className="flex justify-center">
-        <h2 className="headtwo bg-gray-800 text-white text-2xl rounded-3xl px-4 py-2 cursor-pointer transition duration-300 ease-in transform hover:bg-gray-500 hover:text-white hover:scale-90   uppercase  my-8">
+        <h2 className="headtwo font-pacifico bg-gray-800 text-white text-2xl rounded-3xl px-4 py-2 cursor-pointer transition duration-300 ease-in transform hover:bg-gray-500 hover:text-white hover:scale-90   uppercase  my-8">
           Mes Projets
         </h2>
       </div>
 
       <div className="card-maquette  md:grid grid-cols-2  gap-8 sm:flex flex-col justify-center items-center sm:my-8">
-        <Fade cascade delay={ 300 } duration={1200} direction={"right"}>
+        <Fade cascade delay={ 200 } fraction={0.10} duration={1500} direction={"right"}>
           <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-700 ease-in-out transform md:hover:scale-110   ">
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
@@ -51,7 +51,7 @@ const Projets = () => {
             </div>
           </div>
         </Fade>
-        <Fade cascade delay={ 300 } duration={1200} direction={"left"}>
+        <Fade cascade delay={ 200 } fraction={0.10} duration={1500} direction={"left"}>
           <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
@@ -85,7 +85,7 @@ const Projets = () => {
           </div>
         </Fade>
         
-        <Fade cascade delay={ 300 } duration={1200} direction={"right"}>
+        <Fade cascade delay={ 200 } fraction={0.10} duration={1500} direction={"right"}>
           <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
@@ -116,7 +116,7 @@ const Projets = () => {
             </div>
           </div>
         </Fade>
-        <Fade cascade delay={ 300 } duration={1200} direction={"left"}>
+        <Fade cascade delay={ 200 } fraction={0.10} duration={1500} direction={"left"}>
           <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">      
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
@@ -145,7 +145,7 @@ const Projets = () => {
             </div>
           </div>
         </Fade>
-        <Fade cascade delay={ 300 } duration={1200} direction={"right"}>
+        <Fade cascade delay={ 200 } fraction={0.10} duration={1500} direction={"right"}>
           <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 "> 
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
@@ -177,7 +177,7 @@ const Projets = () => {
             </div>
           </div>
         </Fade>
-        <Fade cascade delay={ 300 } duration={1200} direction={"left"}>
+        <Fade cascade delay={ 200 } fraction={0.10} duration={1500} direction={"left"}>
           <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 "> 
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
@@ -211,7 +211,7 @@ const Projets = () => {
        
       </div>
       <div className="flex justify-center">
-        <h2 className="headtwo bg-gray-800 text-white text-2xl rounded-3xl my-8  px-4 py-2 cursor-pointer transition duration-300 ease-in transform hover:bg-gray-500 hover:text-white hover:scale-90 uppercase">
+        <h2 className="headtwo font-pacifico bg-gray-800 text-white text-2xl rounded-3xl my-8  px-4 py-2 cursor-pointer transition duration-300 ease-in transform hover:bg-gray-500 hover:text-white hover:scale-90 uppercase">
           Mon CV
         </h2>
       </div>

@@ -17,12 +17,17 @@ module.exports = {
         "lune-sky": "url('../public/lune.jpg')",
         "space-sky": "url('../public/space.jpg')",
         "stars-sky": "url('../public/stars.jpg')",
+        
       }),
+      fontFamily: {
+        'lato': ['"lato", "sans-serif"'],
+        'pacifico': ['"pacifico", "cursive"']
+      }
     },
   },
   variants: {
     extend: {
-      outline: ['hover', 'active']
+      outline: ['hover', 'active'],
     },
   },
   plugins: [],

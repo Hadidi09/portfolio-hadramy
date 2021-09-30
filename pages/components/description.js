@@ -2,6 +2,7 @@ import Image from "next/image";
 import developer from "../../public/webdev.png";
 import Typewriter from "typewriter-effect";
 import hadra from "../../public/photo-2.png";
+import { Zoom, JackInTheBox } from "react-awesome-reveal";
 
 
 const Description = () => {
@@ -27,28 +28,31 @@ const Description = () => {
           className="w-1/4 sm:w-11/12 md:w-full"
         />
       </div>
-
+      
       <div className=" flex flex-col bg-blend-overlay justify-center items-center sm:flex-col lg:flex-row  ">
-        <p className="  bg-gradient-to-br from-gray-500 via-gray-700 to-gray-600 flex justify-center items-center sm:w-11/12 lg:w-2/5  m-1 p-2 border-0 h-50  rounded-3xl text-2xl  text-center">
-          J'ai découvert le développement web il y a bientôt un peu plus d'une
-          année. Je cherchais à réaliser et obtenir un diplôme de niveau
-          supérieur, pour une meilleure évolution professionnelle. Suite à des
-          recherches sur le web, j'ai découvert le parcours de développeur web.
-          J'ai commencé à m'y intéresser et à suivre des tutoriels sur
-          différentes plateformes (Openclassrooms, Youtube, Udemy etc ...). À
-          présent, je suis à la recherche d'un emploi en tant développeur Web
-          React et Node.js, suite à ma formation diplômante (bac+2) RNCP Niveau
-          5.
-        </p>
-        <div className=" ml-5">
-          
+        <Zoom cascade fraction={0.20} delay={250} duration={2000} direction={"up"} className="flex justify-center items-center sm:w-11/12 md:w-10/12 lg:w-2/5  " >
+          <p className="  bg-gradient-to-br from-gray-500 via-gray-700 to-gray-600 m-1 p-2 border-0 h-50  rounded-3xl text-2xl  text-center ">
+            J'ai découvert le développement web il y a bientôt un peu plus d'une
+            année. Je cherchais à réaliser et obtenir un diplôme de niveau
+            supérieur, pour une meilleure évolution professionnelle. Suite à des
+            recherches sur le web, j'ai découvert le parcours de développeur web.
+            J'ai commencé à m'y intéresser et à suivre des tutoriels sur
+            différentes plateformes (Openclassrooms, Youtube, Udemy etc ...). À
+            présent, je suis à la recherche d'un emploi en tant développeur Web
+            React et Node.js, suite à ma formation diplômante (bac+2) RNCP Niveau
+            5.
+          </p>
+        </Zoom>
+        <JackInTheBox cascade fraction={0.30} delay={150} duration={1000} className=" ml-5" >
+          <div >
+            
             <Image
               src={hadra}
               alt="la photo d'Hadramy"
               className="  rounded-full w-20 h-20 p-10 transform transition-transform hover:rotate-360 duration-1000 ease-in-out cursor-pointer "
             />
-        
-        </div>
+          </div>
+        </JackInTheBox>
       </div>
     </div>
   );
