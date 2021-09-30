@@ -3,6 +3,11 @@
 .headtwo,
 button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: "Pacifico", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
 }
 
 // media querys
