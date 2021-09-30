@@ -16,7 +16,7 @@ const Resume = () => {
           <div className="borderline border-l-4 h-auto ml-2.5  w-2 border-white">
             <p className="w-96 px-1 pb-5  text-white overflow-hidden">
               2020-2021 Pontarlier Opensclassrooms <br />
-              <span className="text-2xl">1ère année STAPS</span>
+              <span className="text-2xl">Développeur web</span>
               <br />
               Intégrer la maquette du site d’une agence web (HTML + CSS),
               Dynamiser un site web avec des animations CSS, Optimiser un site web
@@ -41,7 +41,7 @@ const Resume = () => {
           <div className="borderline border-l-4 h-auto ml-2.5 w-2 border-white">
             <p className="w-96 px-1 pb-5  text-white overflow-hidden">
               2010-2011 Dijon Université de Bourgogne <br />
-              <span className="text-2xl">1ère année STAPS</span> <br />
+              <span className="text-2xl">1ère année d'Histoire</span> <br />
               Psychologie, Sociologie, Histoire du sport, Natation, Gymnastique,
               Athlétisme, Sports Collectifs, Danse.
             </p>
