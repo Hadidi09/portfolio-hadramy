@@ -15,7 +15,7 @@ const Resume = () => {
             <FontAwesomeIcon icon={faAward} />
           </div>
           <div className="borderline border-l-4 h-auto ml-2.5  w-2 border-white">
-            <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden">
+            <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden ">
              <span className="years mr-2 ">2020-2021 Pontarlier</span> <span className="  bg-gray-900 p-1    text-center rounded-3xl"> Opensclassrooms</span>  <br />
               <span className="text-2xl underline my-2 ">Développeur web</span>
               <br />

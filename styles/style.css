@@ -9,7 +9,7 @@ button {
   align-items: center;
 }
 .years {
-  text-decoration: underline overline #000036;
+  text-decoration: overline #000036;
 }
 
 // media querys

@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Layout = ({ children, page }) => {
   return (
-    <div className="w-full grid m-0 p-0 ">
+    <div className="w-full grid m-0 p-0  ">
       <Head>
       <meta charSet="utf-8" />
       <meta name="keywords" content="Portfolio N'DIAYE cheikh el Hadramy développeur web React | Nodejs " />
@@ -16,7 +16,7 @@ const Layout = ({ children, page }) => {
       <header>
         <Navbar />
       </header>
-      <main className="bg-gradient-to-b from-gray-900 via-gray-600 to-gray-700 flex flex-col justify-center items-center  ">
+      <main className="  bg-gradient-to-b from-gray-900 via-gray-600 to-gray-700 flex flex-col justify-center items-center  ">
         {children}
       </main>
       <footer>
