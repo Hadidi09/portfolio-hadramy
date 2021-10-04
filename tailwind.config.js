@@ -17,6 +17,7 @@ module.exports = {
         "lune-sky": "url('../public/lune.jpg')",
         "space-sky": "url('../public/space.jpg')",
         "stars-sky": "url('../public/stars.jpg')",
+        "blob-scene": "url('../public/blob-scene.png')",
         
       }),
       fontFamily: {

@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAward } from "@fortawesome/free-solid-svg-icons";
 import { faFileContract } from "@fortawesome/free-solid-svg-icons";
 
+
 const Resume = () => {
   return (
     <div className=" sm:flex flex-col   text-center   pr-28 sm:mr-0  my-5  lg:ml-60  lg:flex-row   " id="resume">
@@ -14,9 +15,9 @@ const Resume = () => {
             <FontAwesomeIcon icon={faAward} />
           </div>
           <div className="borderline border-l-4 h-auto ml-2.5  w-2 border-white">
-            <p className="w-96 px-1 pb-5  text-white overflow-hidden">
-              2020-2021 Pontarlier Opensclassrooms <br />
-              <span className="text-2xl">Développeur web</span>
+            <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden">
+             <span className="years mr-2 ">2020-2021 Pontarlier</span> <span className=" capitalize bg-gray-900 p-1    text-center rounded-3xl"> Opensclassrooms</span>  <br />
+              <span className="text-2xl underline my-2 ">Développeur web</span>
               <br />
               Intégrer la maquette du site d’une agence web (HTML + CSS),
               Dynamiser un site web avec des animations CSS, Optimiser un site web
@@ -29,8 +30,9 @@ const Resume = () => {
             <FontAwesomeIcon icon={faAward} />
           </div>
           <div className="borderline border-l-4 h-auto ml-2.5  w-2 border-white">
-            <p className="w-96 px-1 pb-5  text-white overflow-hidden">
-              2011-2013 Dijon Université de Bourgogne <br />
+            <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden">
+            <span className="mr-2 years">2011-2013 Dijon</span>   <span className="mr-2 capitalize bg-gray-900 p-1   rounded-3xl">Université de Bourgogne</span> <br />
+              <span className="text-2xl underline my-2">1ère année Licence d'Histoire</span> <br />
               Une culture générale reposant sur: une bonne connaissance de toutes
               les périodes et de toutes les spécialités de l’histoire.
             </p>
@@ -39,9 +41,9 @@ const Resume = () => {
             <FontAwesomeIcon icon={faAward} />
           </div>
           <div className="borderline border-l-4 h-auto ml-2.5 w-2 border-white">
-            <p className="w-96 px-1 pb-5  text-white overflow-hidden">
-              2010-2011 Dijon Université de Bourgogne <br />
-              <span className="text-2xl">1ère année d'Histoire</span> <br />
+            <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden">
+             <span className="mr-2 years">2010-2011 Dijon</span> <span className="mr-2 capitalize bg-gray-900 p-1   rounded-3xl">Université de Bourgogne</span> <br /> 
+              <span className="text-2xl underline my-2">1ère année Licence d'Histoire</span> <br />
               Psychologie, Sociologie, Histoire du sport, Natation, Gymnastique,
               Athlétisme, Sports Collectifs, Danse.
             </p>
@@ -50,9 +52,9 @@ const Resume = () => {
             <FontAwesomeIcon icon={faAward} />
           </div>
           <div className="borderline border-l-4 h-auto ml-2.5 w-2 border-white">
-            <p className="w-96 px-1 pb-5  text-white overflow-hidden">
-              2009-2010 Orléans Université d'Orléans <br />
-              <span className="text-2xl">
+            <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden">
+             <span className="mr-2 years">2009-2010 Orléans</span>  <span className="mr-2 capitalize bg-gray-900 p-1   rounded-3xl">Université d'Orléans</span>  <br />
+              <span className="text-2xl underline my-2">
                 1ère année Licence d'Histoire{" "}
               </span>{" "}
               <br />
@@ -64,9 +66,9 @@ const Resume = () => {
             <FontAwesomeIcon icon={faAward} />
           </div>
           <div className="borderline border-l-4 h-auto ml-2.5 w-2 border-white">
-            <p className="w-96 px-1 pb-5  text-white overflow-hidden">
-              2008-2009 Nouakchott Lycée Cheikh Moussa <br />
-              <span className="text-2xl">Baccalauréat Général</span> <br />
+            <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden">
+             <span className="mr-2 years">2008-2009 Nouakchott</span> <span className="mr-2 capitalize bg-gray-900 p-1   rounded-3xl">Lycée Cheikh Moussa</span> <br /> 
+              <span className="text-2xl underline my-2">Baccalauréat Général</span> <br />
               Bac L
             </p>
           </div>
@@ -81,8 +83,12 @@ const Resume = () => {
             <FontAwesomeIcon icon={faFileContract} />
           </div>
           <div className="borderline border-l-4 h-auto ml-2.5 w-2 border-white">
-            <p className="w-96 px-1 pb-5  text-white overflow-hidden">
-              2020-2020 Chaffois Ouvrier de carrière <br />
+            <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden">
+             <span className="mr-2 years">2020-2020 Chaffois</span> <span className="mr-2 capitalize bg-gray-900 p-1   rounded-3xl">Ouvrier de carrière </span> <br /> 
+              <span className="text-2xl underline my-2">
+                Chez Carrière de chaffois
+              </span>{" "}
+              <br />
               Assistance à la surveillance et entretien des installations de
               concassage.
             </p>
@@ -91,9 +97,9 @@ const Resume = () => {
             <FontAwesomeIcon icon={faFileContract} />
           </div>
           <div className="borderline border-l-4 h-auto ml-2.5 w-2 border-white">
-            <p className="w-96 px-1 pb-5  text-white overflow-hidden">
-              2019-2019 Les fins/Levier Manoeuvre Paysagiste <br />
-              <span className="text-2xl">
+            <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden">
+             <span className="mr-2 years">2019-2019 Les fins/Levier</span> <span className="mr-2 capitalize bg-gray-900 p-1   rounded-3xl">Manoeuvre Paysagiste</span> <br />  
+              <span className="text-2xl underline my-2">
                 Chez Val de Morteau Paysagiste/Dole Paysage
               </span>{" "}
               <br />
@@ -105,9 +111,9 @@ const Resume = () => {
             <FontAwesomeIcon icon={faFileContract} />
           </div>
           <div className="borderline border-l-4 h-auto ml-2.5 w-2 border-white">
-            <p className="w-96 px-1 pb-5  text-white overflow-hidden">
-              2018-2019 Pontarlier Manoeuvre Chantier <br />
-              <span className="text-2xl">
+            <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden">
+             <span className="mr-2 years">2018-2019 Pontarlier</span> <span className="mr-2 capitalize bg-gray-900 p-1   rounded-3xl">Manoeuvre Chantier </span> <br /> 
+              <span className="text-2xl underline my-2">
                 Chez INEO INFRACOM/ Zuliani TP/ Colas/ Vermot TP{" "}
               </span>{" "}
               <br />
@@ -119,9 +125,9 @@ const Resume = () => {
             <FontAwesomeIcon icon={faFileContract} />
           </div>
           <div className="borderline border-l-4 h-auto ml-2.5 w-2 border-white">
-            <p className="w-96 px-1 pb-5  text-white overflow-hidden">
-              2017-2018 Pontarlier Préparateur de commandes <br />
-              <span className="text-2xl">E.LECLERC</span> <br />
+            <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden">
+            <span className="mr-2 years">2017-2018 Pontarlier</span> <span className="mr-2 capitalize bg-gray-900 p-1   rounded-3xl">Préparateur de commandes</span> <br />   
+              <span className="text-2xl underline my-2">E.LECLERC</span> <br />
               Préparation des commandes clients, Respect des normes de qualité de
               préparation.
             </p>
@@ -130,9 +136,9 @@ const Resume = () => {
             <FontAwesomeIcon icon={faFileContract} />
           </div>
           <div className="borderline border-l-4 h-auto ml-2.5 w-2 border-white">
-            <p className="w-96 px-1 pb-5  text-white overflow-hidden">
-              2010-2013 Dijon Animateur périscolaire <br />
-              <span className="text-2xl">Mairie de Dijon</span> <br />
+            <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden">
+            <span className="mr-2 years">2010-2013 Dijon</span> <span className="mr-2 capitalize bg-gray-900 p-1   rounded-3xl">Animateur périscolaire </span> <br /> 
+              <span className="text-2xl underline my-2">Mairie de Dijon</span> <br />
               Encadrer par l’animation un groupe d’enfants. Appliquer et contrôler
               les règles de sécurité dans les activités.
             </p>
@@ -141,9 +147,9 @@ const Resume = () => {
             <FontAwesomeIcon icon={faFileContract} />
           </div>
           <div className="borderline border-l-4 h-auto ml-2.5 w-2 border-white">
-            <p className="w-96 px-1 pb-5  text-white overflow-hidden">
-              2010-2013 Dijon Vendangeur(porteur) <br />
-              <span className="text-2xl">
+            <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden">
+             <span className="mr-2 years">2010-2013 Dijon</span> <span className="mr-2 capitalize bg-gray-900 p-1   rounded-3xl">Vendangeur(porteur) </span> <br /> 
+              <span className="text-2xl underline my-2">
                 Domaine Albert Bichôt en Côtes d'or
               </span>{" "}
               <br />
