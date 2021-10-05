@@ -32,9 +32,10 @@ const Description = () => {
       <div className=" flex flex-col bg-blend-overlay justify-center items-center sm:flex-col lg:flex-row  ">
         <Zoom cascade fraction={0.20} delay={250} duration={2000} direction={"up"} className="flex justify-center items-center sm:w-11/12 md:w-10/12 lg:w-2/5  " >
           <p className="  bg-gradient-to-br from-gray-500 via-gray-700 to-gray-600 m-1 p-2 border-0 h-50  rounded-3xl text-2xl  text-center ">
-            Depuis bientôt deux ans j'ai découvert le développement web.
-            En suivant des tutoriels sur différentes plateformes (Openclassrooms, Youtube, Udemy etc ...).
-            Suite à ma formation diplômante (bac+2) RNCP Niveau 5 chez Opensclassrooms.
+            Je m'intéresse au développement web depuis plus de deux ans.
+            D'abord en autodidacte, en suivant des tutoriels sur différentes plateformes (Openclassrooms, Youtube, Udemy etc ...).
+            Puis j'ai suivi une formation diplômante (bac+2) RNCP Niveau 5 chez Opensclassrooms.
+            J'aime apprendre et découvrir de nouvelles techniques. Chaque jour je continue à perfectionner ma pratique.
             Je peux vous aider à réaliser vos projets.
           </p>
         </Zoom>

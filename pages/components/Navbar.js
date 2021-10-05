@@ -109,7 +109,7 @@ const Navbar = () => {
           </Link>
           <Link href="#resume">
             <button className="p-2 mx-2 transition  duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
-              Expériences
+              Mon CV
             </button>
           </Link>
         </div>
@@ -145,7 +145,7 @@ const Navbar = () => {
           </Link>
           <Link href="#resume">
             <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
-              Expériences
+              Mon CV
             </button>
           </Link>
             </div>
