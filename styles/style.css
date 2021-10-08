@@ -12,7 +12,36 @@ button {
   text-decoration: overline #000036;
 }
 
-// media querys
+/* .snow-effect {
+  background-image: url(../public/snowflake-64.png);
+  position: absolute;
+
+  width: 100%;
+  height: 80%;
+  background: transparent;
+  backdrop-filter: blur(2px);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  animation: snoweffect 200s infinite linear;
+  color: gray;
+} */
+
+/* keyframes*/
+@keyframes snoweffect {
+  0% {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  100% {
+    background-position: 100px 1000px, 400px 400%, 300px 300px;
+  }
+}
+/* main {
+  background-image: url("https://images.unsplash.com/photo-1445233566136-a2a4e2c38bc2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+/* media querys*/
 body {
   margin: 0;
   padding: 0;

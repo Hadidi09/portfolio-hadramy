@@ -45,7 +45,7 @@ const Description = () => {
             <Image
               src={hadra}
               alt="la photo d'Hadramy"
-              className="  rounded-full w-20 h-20 p-10 transform transition-transform hover:rotate-360 duration-1000 ease-in-out cursor-pointer "
+              className="   rounded-full w-20 h-20 p-10 transform transition-transform hover:rotate-360 duration-1000 ease-in-out cursor-pointer "
             />
           </div>
         </JackInTheBox>

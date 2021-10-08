@@ -10,7 +10,8 @@ import Resume from "./components/resume";
 export default function Home() {
   return (
    
-    <Layout page="Portfolio">
+    <Layout   page="Portfolio">
+      <div className="snow-effect "></div>
       <Description />
       <Competences />
       <Projets />

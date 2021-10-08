@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fade } from "react-awesome-reveal";
+import { Bounce } from "react-awesome-reveal";
 import Image from 'next/image'
 import Html5 from '../../public/html5.png'
 import Css3 from '../../public/css3.png';
@@ -25,7 +25,7 @@ const Competences = () => {
             Compétences
             </h2>
         </div>
-        <Fade cascade delay={ 300 }  duration={2000} direction={'top-left'}>
+        <Bounce cascade delay={ 150 } fraction={0.1}  duration={1500} direction={'out'}>
             <Swiper
           
                  slidesPerView={5}
@@ -76,7 +76,7 @@ const Competences = () => {
                 </ul>
         </Swiper>
               
-        </Fade>
+        </Bounce>
         
         </section>
     );

@@ -14,11 +14,12 @@ module.exports = {
         "blue-sky": "url('../public/blue.jpg')",
         "ciel-sky": "url('../public/ciel.jpg')",
         "etincelle-sky": "url('../public/etincelle.jpg')",
-        "lune-sky": "url('../public/lune.jpg')",
+        "lune-sky": "url('../public/redis.jpg')",
         "space-sky": "url('../public/space.jpg')",
         "stars-sky": "url('../public/stars.jpg')",
         "blob-scene": "url('../public/blob-scene.png')",
         "weather": "url('../public/snow.png')",
+        "snow-man": "url('../public/snow-man.png')",
 
         
       }),
