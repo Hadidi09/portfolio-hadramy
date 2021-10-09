@@ -43,7 +43,7 @@ const Footer = () => {
         
       </div>
       
-      <div className=" flex justify-center items-center w-max bg-gray-900 text-white rounded-3xl p-3 mb-5 transition duration-300 ease-in hover:bg-white hover:text-gray-900 cursor-pointer">
+      <div className=" flex justify-center items-center w-max bg-gray-900 text-white rounded-3xl p-3 mb-5 transition duration-300 ease-in hover:bg-gray-700  cursor-pointer">
         Portfolio N'DIAYE Cheikh El Hadramy @2021 All rights reserved
       </div>
     </div>
