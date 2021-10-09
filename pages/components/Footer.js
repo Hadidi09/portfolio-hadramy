@@ -27,7 +27,7 @@ const Footer = () => {
           <div>
             <Link href="https://www.linkedin.com/in/cheikh-el-hadramy-n-diaye/"   >
               <a target="_blank" rel="noopener" >
-                <FontAwesomeIcon icon={["fab", "linkedin"]} size="7x" className="hover:text-blue-800  text-blue-600 "   />
+                <FontAwesomeIcon icon={["fab", "linkedin"]} size="7x" className="transition duration-300 ease-in  hover:text-blue-800  text-blue-600 "   />
               </a>
             </Link>
           </div>
@@ -35,7 +35,7 @@ const Footer = () => {
           <div>
             <Link href="https://github.com/Hadidi09" target="_blank" rel="noopener">
               <a target="_blank" rel="noopener">
-                <FontAwesomeIcon icon={["fab", "github"]} size="7x" className="hover:text-black  text-gray-700 " />
+                <FontAwesomeIcon icon={["fab", "github"]} size="7x" className="transition duration-300 ease-in hover:text-black  text-gray-700 " />
               </a>
             </Link>
           </div> 
@@ -43,7 +43,7 @@ const Footer = () => {
         
       </div>
       
-      <div className=" flex justify-center items-center w-max bg-gray-900 text-white rounded-3xl p-1 m-1 hover:bg-white hover:text-gray-900 cursor-pointer">
+      <div className=" flex justify-center items-center w-max bg-gray-900 text-white rounded-3xl p-3 mb-5 transition duration-300 ease-in hover:bg-white hover:text-gray-900 cursor-pointer">
         Portfolio N'DIAYE Cheikh El Hadramy @2021 All rights reserved
       </div>
     </div>
