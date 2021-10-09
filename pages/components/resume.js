@@ -7,8 +7,8 @@ import { faFileContract } from "@fortawesome/free-solid-svg-icons";
 
 const Resume = () => {
   return (
-    <div className=" sm:flex flex-col   text-center   pr-28 sm:mr-0  my-5  lg:ml-60  lg:flex-row   " id="resume">
-      <Fade cascade  direction={"left"}>
+    <div className=" sm:flex flex-col   text-center   pr-28 sm:mr-0  my-5  lg:ml-2  lg:flex-row   " id="resume">
+      <Fade cascade  direction={"right"}>
         <div className="resume flex items-start  flex-col md:col-start-2 md:col-span-3 lg:mr-80 ">
           <h3 className="text-2xl text-white mb-2">Formation</h3>
           <div className="rounded-6xl bg-gray-900 text-white w-6 ">
@@ -74,8 +74,8 @@ const Resume = () => {
           </div>
         </div>
       </Fade>
-      <Fade cascade   direction={"right"}>
-        <div className="resume flex items-start flex-col md:col-start-5  lg:mr-80   ">
+      <Fade cascade   direction={"left"}>
+        <div className="resume flex items-start flex-col md:col-start-5  lg:mr-2   ">
           <h3 className="text-2xl text-white w-72 mb-2">
             Expérience professionnelle
           </h3>

@@ -10,7 +10,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Projets = () => {
   return (
-    <div className="contentprojet flex flex-col justify-center pt-6  lg:items-center " id="projets">
+    <div className="contentprojet flex flex-col justify-center items-center  pt-6  lg:items-center " id="projets">
       
       <div className="flex justify-center">
         <h2 className="headtwo w-64 font-pacifico bg-gray-800 text-white text-2xl rounded-3xl px-4 py-2 cursor-pointer transition duration-300 ease-in transform hover:bg-gray-500 hover:text-white hover:scale-90   uppercase  my-8">
@@ -19,8 +19,8 @@ const Projets = () => {
       </div>
 
       <div className="card-maquette  md:grid grid-cols-2  gap-8 sm:flex flex-col justify-center items-center sm:my-8">
-        <Fade cascade delay={ 200 } fraction={0.10} duration={1500} direction={"right"}>
-          <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-700 ease-in-out transform md:hover:scale-110   ">
+        <Fade cascade delay={ 200 } fraction={0.10} duration={1000} direction={"right"}>
+          <div className="cards-contents bg-stars-sky bg-cover p-10  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-700 ease-in-out transform md:hover:scale-110   ">
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
                 src={Raquette}
@@ -51,8 +51,8 @@ const Projets = () => {
             </div>
           </div>
         </Fade>
-        <Fade cascade delay={ 200 } fraction={0.10} duration={1500} direction={"left"}>
-          <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">
+        <Fade cascade delay={ 200 } fraction={0.10} duration={1000} direction={"left"}>
+          <div className="cards-contents bg-stars-sky bg-cover p-10  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
                 src={MyFood}
@@ -85,8 +85,8 @@ const Projets = () => {
           </div>
         </Fade>
         
-        <Fade cascade delay={ 200 } fraction={0.10} duration={1500} direction={"right"}>
-          <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">
+        <Fade cascade delay={ 200 } fraction={0.10} duration={1000} direction={"right"}>
+          <div className="cards-contents bg-stars-sky bg-cover p-10  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
                 src={Chouette}
@@ -116,8 +116,8 @@ const Projets = () => {
             </div>
           </div>
         </Fade>
-        <Fade cascade delay={ 200 } fraction={0.10} duration={1500} direction={"left"}>
-          <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">      
+        <Fade cascade delay={ 200 } fraction={0.10} duration={1000} direction={"left"}>
+          <div className="cards-contents bg-stars-sky bg-cover p-10  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">      
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
                 src={OrinocoJs}
@@ -145,8 +145,8 @@ const Projets = () => {
             </div>
           </div>
         </Fade>
-        <Fade cascade delay={ 200 } fraction={0.10} duration={1500} direction={"right"}>
-          <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 "> 
+        <Fade cascade delay={ 200 } fraction={0.10} duration={1000} direction={"right"}>
+          <div className="cards-contents bg-stars-sky bg-cover p-10  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 "> 
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
                 src={Sopiquant}
@@ -177,8 +177,8 @@ const Projets = () => {
             </div>
           </div>
         </Fade>
-        <Fade cascade delay={ 200 } fraction={0.10} duration={1500} direction={"left"}>
-          <div className="cards-contents bg-stars-sky bg-cover p-10 m-6 w-max md:w-11/12 md:m-1 lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 "> 
+        <Fade cascade delay={ 200 } fraction={0.10} duration={1000} direction={"left"}>
+          <div className="cards-contents bg-stars-sky bg-cover p-10  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 "> 
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
                 src={Groupomania}

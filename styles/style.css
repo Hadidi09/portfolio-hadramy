@@ -1,9 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik&display=swap");
 
+* {
+  box-sizing: border-box;
+}
 .headtwo,
 button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family: "Pacifico", cursive;
+  font-family: "Rubik", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,6 +49,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
+  overflow-x: hidden;
 }
 @media (min-width: 280px) and (max-width: 640px) {
   body {
@@ -64,6 +68,6 @@ body {
 }
 @media (min-width: 1024px) {
   body {
-    zoom: 100%;
+    zoom: 90%;
   }
 }

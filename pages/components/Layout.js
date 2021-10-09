@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Layout = ({ children, page }) => {
   return (
-    <div className="w-full grid m-0 p-0  ">
+    <div className="w-full grid  m-0 p-0 place-content-center   ">
       <Head>
       <meta charSet="utf-8" />
       <meta name="keywords" content="Portfolio N'DIAYE cheikh el Hadramy développeur web React | Nodejs " />
