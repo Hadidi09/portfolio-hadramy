@@ -4,7 +4,7 @@ import { Transition } from "@headlessui/react";
 // Composant Navbar
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [largeur, setLargeur] = useState(768);
+  const [largeur, setLargeur] = useState(800);
   const menuToggle = () => {
     setToggle(!toggle);
     console.log(toggle);
@@ -12,15 +12,16 @@ const Navbar = () => {
   useEffect(() => {
     const setWidthChange = () => {
       setLargeur(window.innerWidth);
-      if (window.innerWidth > 1000) {
+      if (window.innerWidth > 800) {
         setToggle(false);
         console.log("resized");
       }
     };
-
+    
+    window && window.addEventListener("load", setWidthChange);
     window && window.addEventListener("resize", setWidthChange);
-
     return () => {
+      window && window.removeEventListener("load", setWidthChange);
       window && window.removeEventListener("resize", setWidthChange);
     };
   });
@@ -41,7 +42,7 @@ const Navbar = () => {
             />
           </svg>
         </div>
-        <div className={largeur <= 1000 ? "block" : "hidden"}>
+        <div className={largeur <= 800 ? "block" : "hidden"}>
           <button
             onClick={menuToggle} type="button"
             className="  to-red-800 rounded-3xl text-white bg-gray-900   "
@@ -87,7 +88,7 @@ const Navbar = () => {
 
         <div
           className={
-            largeur >= 1001 ? "inline-grid grid-cols-4 gap-x-2 p-4  " : "hidden"
+            largeur > 801 ? "inline-grid grid-cols-4 gap-x-2 p-4  " : "hidden"
           }
         >
           <Link href="#description">

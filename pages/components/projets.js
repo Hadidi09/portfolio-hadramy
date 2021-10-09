@@ -20,7 +20,7 @@ const Projets = () => {
 
       <div className="card-maquette  md:grid grid-cols-2  gap-8 sm:flex flex-col justify-center items-center sm:my-8">
         <Fade cascade delay={ 200 } fraction={0.10} duration={1000} direction={"right"}>
-          <div className="cards-contents bg-stars-sky bg-cover p-10  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-700 ease-in-out transform md:hover:scale-110   ">
+          <div className="cards-contents bg-stars-sky bg-cover p-10 my-8 md:my-2   w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-700 ease-in-out transform md:hover:scale-110   ">
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
                 src={Raquette}
@@ -52,7 +52,7 @@ const Projets = () => {
           </div>
         </Fade>
         <Fade cascade delay={ 200 } fraction={0.10} duration={1000} direction={"left"}>
-          <div className="cards-contents bg-stars-sky bg-cover p-10  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">
+          <div className="cards-contents bg-stars-sky bg-cover p-10 my-8 md:my-2  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
                 src={MyFood}
@@ -86,7 +86,7 @@ const Projets = () => {
         </Fade>
         
         <Fade cascade delay={ 200 } fraction={0.10} duration={1000} direction={"right"}>
-          <div className="cards-contents bg-stars-sky bg-cover p-10  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">
+          <div className="cards-contents bg-stars-sky bg-cover p-10 my-8 md:my-2  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
                 src={Chouette}
@@ -117,7 +117,7 @@ const Projets = () => {
           </div>
         </Fade>
         <Fade cascade delay={ 200 } fraction={0.10} duration={1000} direction={"left"}>
-          <div className="cards-contents bg-stars-sky bg-cover p-10  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">      
+          <div className="cards-contents bg-stars-sky bg-cover p-10 my-8 md:my-2  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 ">      
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
                 src={OrinocoJs}
@@ -146,7 +146,7 @@ const Projets = () => {
           </div>
         </Fade>
         <Fade cascade delay={ 200 } fraction={0.10} duration={1000} direction={"right"}>
-          <div className="cards-contents bg-stars-sky bg-cover p-10  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 "> 
+          <div className="cards-contents bg-stars-sky bg-cover p-10 my-8 md:my-2  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 "> 
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
                 src={Sopiquant}
@@ -178,7 +178,7 @@ const Projets = () => {
           </div>
         </Fade>
         <Fade cascade delay={ 200 } fraction={0.10} duration={1000} direction={"left"}>
-          <div className="cards-contents bg-stars-sky bg-cover p-10  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 "> 
+          <div className="cards-contents bg-stars-sky bg-cover p-10 my-8 md:my-2  w-max md:w-full  lg:w-max lg:m-6  cursor-pointer rounded-3xl shadow-xl transiton duration-1000 ease-in-out transform md:hover:scale-110 "> 
             <div className="content-maquette flex justify-center flex-col items-center  ">
               <Image
                 src={Groupomania}
