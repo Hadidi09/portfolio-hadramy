@@ -43,7 +43,7 @@ const Resume = () => {
           <div className="borderline border-l-4 h-auto ml-2.5 w-2 border-white">
             <p className="w-96 px-1 pb-5 pt-3  text-white overflow-hidden">
              <span className="mr-2 years">2010-2011 Dijon</span> <span className="mr-2  bg-gray-900 p-1   rounded-3xl">Université de Bourgogne</span> <br /> 
-              <span className="text-2xl underline my-2">1ère année Licence d'Histoire</span> <br />
+              <span className="text-2xl underline my-2">1ère année Licence STAPS</span> <br />
               Psychologie, Sociologie, Histoire du sport, Natation, Gymnastique,
               Athlétisme, Sports Collectifs, Danse.
             </p>
