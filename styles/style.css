@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400;700&family=Poppins&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 .headtwo,
 button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family: "Rubik", sans-serif;
+  font-family: "Hahmlet", serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,21 +17,6 @@ button {
 .years {
   text-decoration: overline #000036;
 }
-
-/* .snow-effect {
-  background-image: url(../public/snowflake-64.png);
-  position: absolute;
-
-  width: 100%;
-  height: 80%;
-  background: transparent;
-  backdrop-filter: blur(2px);
-  bottom: 0;
-  left: 0;
-  right: 0;
-  animation: snoweffect 200s infinite linear;
-  color: gray;
-} */
 
 /* keyframes*/
 @keyframes snoweffect {
@@ -51,7 +36,7 @@ button {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
 @media (min-width: 280px) and (max-width: 640px) {

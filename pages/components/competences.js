@@ -25,7 +25,7 @@ const Competences = () => {
             Compétences
             </h2>
         </div>
-        <Bounce cascade delay={ 150 } fraction={0.1}  duration={1500} direction={'out'} >
+        <Bounce triggerOnce cascade delay={ 150 } fraction={0.1}  duration={1500} direction={'out'} >
             <Swiper
           
                  slidesPerView={5}
