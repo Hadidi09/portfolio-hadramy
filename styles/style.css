@@ -1,8 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400;700&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400;700&family=Oxygen:wght@400;700&family=Xanh+Mono&display=swap");
 
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oxygen", sans-serif;
+  overflow-x: hidden;
+}
+.spantitle {
+  font-family: "Xanh Mono", monospace;
+}
+/* h1 {
+  font-family: "Hahmlet", serif;
+} */
 .headtwo,
 button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -27,18 +39,9 @@ button {
     background-position: 100px 1000px, 400px 400%, 300px 300px;
   }
 }
-/* main {
-  background-image: url("https://images.unsplash.com/photo-1445233566136-a2a4e2c38bc2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+
 /* media querys*/
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
-}
+
 @media (min-width: 280px) and (max-width: 640px) {
   body {
     zoom: 50%;
