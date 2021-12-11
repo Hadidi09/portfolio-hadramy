@@ -45,7 +45,7 @@ const Navbar = () => {
         <div className={largeur <= 800 ? "block" : "hidden"}>
           <button
             onClick={menuToggle} type="button"
-            className="  to-red-800 rounded-3xl text-white bg-gray-900   "
+            className="  to-red-800 rounded-3xl text-white bg-gray-900 " aria-label="menu toggle"
           >
             {!toggle ? (
               <>

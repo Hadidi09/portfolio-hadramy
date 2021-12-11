@@ -25,18 +25,20 @@ const Footer = () => {
         </div>
         <div className=" flex bg-white m-2 p-3 rounded-2xl cursor-pointer ">
           <div>
-            <Link href="https://www.linkedin.com/in/cheikh-el-hadramy-n-diaye/"   >
+            <Link href="https://www.linkedin.com/in/cheikh-el-hadramy-n-diaye/" aria-label="lien linkedin"  >
               <a target="_blank" rel="noopener" >
-                <FontAwesomeIcon icon={["fab", "linkedin"]} size="7x" className="transition duration-300 ease-in  hover:text-blue-800  text-blue-600 "   />
+                <FontAwesomeIcon icon={["fab", "linkedin"]} size="7x" className="transition duration-300 ease-in  hover:text-blue-800  text-blue-600 " />
               </a>
+              
             </Link>
           </div>
           
           <div>
-            <Link href="https://github.com/Hadidi09" target="_blank" rel="noopener">
+            <Link href="https://github.com/Hadidi09" aria-label="lien github">
               <a target="_blank" rel="noopener">
                 <FontAwesomeIcon icon={["fab", "github"]} size="7x" className="transition duration-300 ease-in hover:text-black  text-gray-700 " />
               </a>
+              
             </Link>
           </div> 
         </div>
