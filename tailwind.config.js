@@ -16,7 +16,7 @@ module.exports = {
         "etincelle-sky": "url('../public/etincelle.jpg')",
         "lune-sky": "url('../public/redis.jpg')",
         "space-sky": "url('../public/space.jpg')",
-        "stars-sky": "url('../public/stars.jpg')",
+        "stars-sky": "url('../public/stars.webp')",
         "blob-scene": "url('../public/blob-scene.png')",
         "weather": "url('../public/snow.png')",
         "snow-man": "url('../public/snow-man.png')",

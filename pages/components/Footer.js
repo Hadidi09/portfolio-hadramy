@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="flex  justify-center flex-row items-center mx-2  ">
         <div className="contact flex flex-col  ">
           
-          <div className="flex flex-col text-white bg-gray-800 rounded-3xl p-3  ">
+          <div className="flex flex-col text-white bg-gray-800 rounded-3xl p-5  ">
             <div className="">
               <h5 className="text-xl">Email :</h5>
               <p className="underline text-xl cursor-pointer transition delay-25 duration-200 ease-out transform hover:scale-105">cheikhhadramy@yahoo.fr</p>
@@ -23,11 +23,12 @@ const Footer = () => {
           </div>
             
         </div>
-        <div className=" flex bg-white m-2 p-3 rounded-2xl cursor-pointer ">
+        <div className=" flex bg-white m-2 p-2 rounded-2xl cursor-pointer ">
           <div>
             <Link href="https://www.linkedin.com/in/cheikh-el-hadramy-n-diaye/" aria-label="lien linkedin"  >
               <a target="_blank" rel="noopener" >
                 <FontAwesomeIcon icon={["fab", "linkedin"]} size="7x" className="transition duration-300 ease-in  hover:text-blue-800  text-blue-600 " />
+                <p className=" flex flex-col justify-center items-center bg-purple-500 rounded-xl mx-2 text-white  ">Linkedin</p>
               </a>
               
             </Link>
@@ -37,6 +38,7 @@ const Footer = () => {
             <Link href="https://github.com/Hadidi09" aria-label="lien github">
               <a target="_blank" rel="noopener">
                 <FontAwesomeIcon icon={["fab", "github"]} size="7x" className="transition duration-300 ease-in hover:text-black  text-gray-700 " />
+                <p className=" flex flex-col justify-center items-center bg-purple-500 rounded-xl mx-2 text-white  ">Github</p>
               </a>
               
             </Link>

@@ -64,15 +64,15 @@ const Competences = () => {
                 >
                   
                 <ul className=" rounded-3xl m-0  ">
-                    <SwiperSlide className="pt-2"><Image src={Html5} width={150} height={150} quality={100} alt="photo de la maquette" className=" rounded-3xl  " /></SwiperSlide>
-                    <SwiperSlide className="pt-2"><Image src={Css3} width={150} height={150} quality={100} alt="photo de la vie" className=" rounded-3xl  " /></SwiperSlide>
-                    <SwiperSlide className="pt-2"><Image src={Javascript} width={150} height={150} quality={100} alt="photo de java" className=" rounded-3xl  " /></SwiperSlide>
-                    <SwiperSlide className="pt-2"><Image src={Bootstrap} width={150} height={150} quality={100} alt="photo de bootstrap" className=" rounded-3xl  " /></SwiperSlide>
-                    <SwiperSlide className="pt-2"><Image src={Sass} width={150} height={150} quality={100} alt="photo de Sass" className=" rounded-3xl  "/></SwiperSlide>
-                    <SwiperSlide className="pt-2"><Image src={Tailwind} width={150} height={150} quality={100} alt="photo de Tailwind" className=" rounded-3xl  "/></SwiperSlide>
-                    <SwiperSlide className="pt-2"><Image src={Node} width={150} height={150} quality={100} alt="photo de Node" className=" rounded-3xl  "/></SwiperSlide>
-                    <SwiperSlide className="pt-2"><Image src={Mongodb} width={150} height={150} quality={100} alt="photo de Mongodb" className=" rounded-3xl  "/></SwiperSlide>
-                    <SwiperSlide className="pt-2"><Image src={Mysql} width={150} height={150} quality={100} alt="photo de Mysql" className=" rounded-3xl  "/></SwiperSlide>
+                    <SwiperSlide className="pt-2"><Image src={Html5} width={150} height={150} quality={100} alt="Logo HTML" className=" rounded-3xl  " /></SwiperSlide>
+                    <SwiperSlide className="pt-2"><Image src={Css3} width={150} height={150} quality={100} alt="Logo CSS3" className=" rounded-3xl  " /></SwiperSlide>
+                    <SwiperSlide className="pt-2"><Image src={Javascript} width={150} height={150} quality={100} alt="Logo de java" className=" rounded-3xl  " /></SwiperSlide>
+                    <SwiperSlide className="pt-2"><Image src={Bootstrap} width={150} height={150} quality={100} alt="Logo de bootstrap" className=" rounded-3xl  " /></SwiperSlide>
+                    <SwiperSlide className="pt-2"><Image src={Sass} width={150} height={150} quality={100} alt="Logo de Sass" className=" rounded-3xl  "/></SwiperSlide>
+                    <SwiperSlide className="pt-2"><Image src={Tailwind} width={150} height={150} quality={100} alt="Logo de Tailwind" className=" rounded-3xl  "/></SwiperSlide>
+                    <SwiperSlide className="pt-2"><Image src={Node} width={150} height={150} quality={100} alt="Logo de Node" className=" rounded-3xl  "/></SwiperSlide>
+                    <SwiperSlide className="pt-2"><Image src={Mongodb} width={150} height={150} quality={100} alt="Logo de Mongodb" className=" rounded-3xl  "/></SwiperSlide>
+                    <SwiperSlide className="pt-2"><Image src={Mysql} width={150} height={150} quality={100} alt="Logo de Mysql" className=" rounded-3xl  "/></SwiperSlide>
                 </ul>
         </Swiper>
               

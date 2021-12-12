@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import "../styles/style.css";
+import "../styles/style.min.css";
 import "swiper/swiper.scss";
 import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
