@@ -18,9 +18,6 @@ module.exports = {
         "space-sky": "url('../public/space.jpg')",
         "stars-sky": "url('../public/stars.webp')",
         "blob-scene": "url('../public/blob-scene.png')",
-        "weather": "url('../public/snow.png')",
-        "snow-man": "url('../public/snow-man.png')",
-
         
       }),
       fontFamily: {

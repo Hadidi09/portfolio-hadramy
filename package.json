@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": " next-sitemap --config next-sitemap.config.js "
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "autoprefixer": "^10.3.1",
     "eslint": "7.30.0",
+    "next-sitemap": "^1.6.203",
     "postcss": "^8.3.5",
     "tailwindcss": "^2.2.4"
   }

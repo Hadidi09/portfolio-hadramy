@@ -1,6 +1,9 @@
-# Allow all crawlers
+# *
 User-agent: *
 Allow: /
 
+# Host
+Host: https://ndiaye-cheikh-el-hadramy.fr
 
+# Sitemaps
 Sitemap: https://ndiaye-cheikh-el-hadramy.fr/sitemap.xml
