@@ -1,5 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400;700&family=Oxygen:wght@400;700&family=Xanh+Mono&display=swap"); */
-
 * {
   box-sizing: border-box;
 }
@@ -12,7 +10,6 @@ body {
 .spantitle {
   font-family: "Xanh Mono", monospace;
 }
-
 .headtwo,
 button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -27,7 +24,6 @@ button {
 .years {
   text-decoration: overline #000036;
 }
-
 /* keyframes*/
 @keyframes snoweffect {
   0% {
@@ -37,9 +33,7 @@ button {
     background-position: 100px 1000px, 400px 400%, 300px 300px;
   }
 }
-
 /* media querys*/
-
 @media (min-width: 280px) and (max-width: 640px) {
   body {
     zoom: 50%;

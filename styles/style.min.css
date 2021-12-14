@@ -1,11 +1,10 @@
-@import url(https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400;700&family=Oxygen:wght@400;700&family=Xanh+Mono&display=swap);
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0;
   padding: 0;
-  font-family: "Oxygen", sans-serif;
+  font-family: Oxygen, sans-serif;
   overflow-x: hidden;
 }
 .spantitle {
@@ -13,14 +12,14 @@ body {
 }
 .headtwo,
 button {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family: "Hahmlet", serif;
+  -webkit-tap-highlight-color: transparent;
+  font-family: Hahmlet, serif;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .copyright {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 .years {
   text-decoration: overline #000036;
