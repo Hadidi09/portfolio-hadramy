@@ -6,22 +6,31 @@ import Description from "./components/description";
 import Layout from "./components/Layout";
 import Projets from "./components/projets";
 import Resume from "./components/resume";
-
 import dynamic from 'next/dynamic'
 
-const DynamicLazyComponentCompetences = dynamic(() => import('./components/competences'), {
+const DynamicLazyComponentDescription= dynamic(() => import('./components/description'), { ssr : false
   
 })
+
+const DynamicLazyComponentCompetences = dynamic(() => import('./components/competences'), { ssr : false
+  
+})
+const DynamicLazyComponentProjets = dynamic(() => import('./components/projets'), { ssr : false
+  
+})
+const DynamicLazyComponentResume = dynamic(() => import('./components/resume'), { ssr : false
+  
+})
+
 
 export default function Home() {
   return (
    
     <Layout   page="ndiaye cheikh el hadramy">
-      <div className="snow-effect "></div>
-      <Description />
+      <DynamicLazyComponentDescription />
       <DynamicLazyComponentCompetences />
-      <Projets />
-      <Resume />
+      <DynamicLazyComponentProjets />
+      <DynamicLazyComponentResume />
     </Layout>
    
   );
