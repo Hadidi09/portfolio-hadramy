@@ -7,13 +7,19 @@ import Layout from "./components/Layout";
 import Projets from "./components/projets";
 import Resume from "./components/resume";
 
+import dynamic from 'next/dynamic'
+
+const DynamicLazyComponentCompetences = dynamic(() => import('./components/competences'), {
+  
+})
+
 export default function Home() {
   return (
    
-    <Layout   page="Portfolio">
+    <Layout   page="ndiaye cheikh el hadramy">
       <div className="snow-effect "></div>
       <Description />
-      <Competences />
+      <DynamicLazyComponentCompetences />
       <Projets />
       <Resume />
     </Layout>

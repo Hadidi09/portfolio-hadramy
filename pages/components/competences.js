@@ -59,7 +59,7 @@ const Competences = () => {
                   "slideShadows": false
               }}
           onSwiper={(swiper) => console.log(swiper)}
-              onSlideChange={() => console.log('slide change')}
+              
               className="swiper-container    h-52 my-5 bg-gradient-to-l from-gray-300 via-gray-600 to-gray-600 hover:scale-150 focus:scale-x-150"
                 >
                   
