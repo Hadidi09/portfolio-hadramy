@@ -7,16 +7,13 @@ import Layout from "./components/Layout";
 import Projets from "./components/projets";
 import Resume from "./components/resume";
 
-
 export default function Home() {
   return (
-   
-    <Layout   page="ndiaye cheikh el hadramy">
+    <Layout page="ndiaye cheikh el hadramy">
       <Description />
       <Competences />
       <Projets />
       <Resume />
     </Layout>
-   
   );
 }

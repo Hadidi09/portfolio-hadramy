@@ -7,16 +7,15 @@ import "swiper/components/scrollbar/scrollbar.scss";
 import "swiper/components/effect-coverflow/effect-coverflow.scss";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 config.autoAddCss = false;
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
-library.add(fab)
+library.add(fab);
 function MyApp({ Component, pageProps }) {
-  return  <Component {...pageProps} />
-     
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;

@@ -7,17 +7,17 @@ const Navbar = () => {
   const [largeur, setLargeur] = useState(800);
   const menuToggle = () => {
     setToggle(!toggle);
-    console.log(toggle);
+    // console.log(toggle);
   };
   useEffect(() => {
     const setWidthChange = () => {
       setLargeur(window.innerWidth);
       if (window.innerWidth > 800) {
         setToggle(false);
-        console.log("resized");
+        // console.log("resized");
       }
     };
-    
+
     window && window.addEventListener("load", setWidthChange);
     window && window.addEventListener("resize", setWidthChange);
     return () => {
@@ -44,8 +44,10 @@ const Navbar = () => {
         </div>
         <div className={largeur <= 800 ? "block" : "hidden"}>
           <button
-            onClick={menuToggle} type="button"
-            className="  to-red-800 rounded-3xl text-white bg-gray-900 " aria-label="menu toggle"
+            onClick={menuToggle}
+            type="button"
+            className="  to-red-800 rounded-3xl text-white bg-gray-900 "
+            aria-label="menu toggle"
           >
             {!toggle ? (
               <>
@@ -82,7 +84,7 @@ const Navbar = () => {
                 </svg>
               </>
             )}
-            <span className="hidden">Menu</span> 
+            <span className="hidden">Menu</span>
           </button>
         </div>
 
@@ -127,28 +129,28 @@ const Navbar = () => {
         >
           <div className=" flex justify-center">
             <div className="navigation flex justify-center flex-col ">
-            <Link href="#description">
-            <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
-              À propos
-            </button>
-          </Link>
+              <Link href="#description">
+                <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
+                  À propos
+                </button>
+              </Link>
 
-          <Link href="#competences">
-            <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
-              Compétences
-            </button>
-          </Link>
+              <Link href="#competences">
+                <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
+                  Compétences
+                </button>
+              </Link>
 
-          <Link href="#projets">
-            <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
-              Projets
-            </button>
-          </Link>
-          <Link href="#resume">
-            <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
-              Mon CV
-            </button>
-          </Link>
+              <Link href="#projets">
+                <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
+                  Projets
+                </button>
+              </Link>
+              <Link href="#resume">
+                <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
+                  Mon CV
+                </button>
+              </Link>
             </div>
           </div>
         </Transition>

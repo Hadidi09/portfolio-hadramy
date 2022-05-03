@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     rotate: {
@@ -18,17 +18,16 @@ module.exports = {
         "space-sky": "url('../public/space.jpg')",
         "stars-sky": "url('../public/stars.webp')",
         "blob-scene": "url('../public/blob-scene.png')",
-        
       }),
       fontFamily: {
-        'lato': ['"lato", "sans-serif"'],
-        'pacifico': ['"pacifico", "cursive"']
-      }
+        lato: ['"lato", "sans-serif"'],
+        pacifico: ['"pacifico", "cursive"'],
+      },
     },
   },
   variants: {
     extend: {
-      outline: ['hover', 'active'],
+      outline: ["hover", "active"],
     },
   },
   plugins: [],
