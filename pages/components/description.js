@@ -47,9 +47,7 @@ const Description = () => {
             en autodidacte, en suivant des tutoriels sur différentes plateformes
             (Openclassrooms, Youtube, Udemy etc ...). Puis j'ai suivi une
             formation diplômante (bac+2) RNCP Niveau 5 chez Opensclassrooms.
-            J'aime apprendre et découvrir de nouvelles techniques. Chaque jour
-            je continue à perfectionner ma pratique. Je peux vous aider à
-            réaliser vos projets.
+            Aujourd'hui je me spécialise en tant que développeur Front-End Reactjs.
           </p>
         </Zoom>
         <JackInTheBox
