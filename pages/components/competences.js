@@ -10,6 +10,8 @@ import Tailwind from "../../public/tailwind.png";
 import Node from "../../public/node.png";
 import Mongodb from "../../public/mongodb.png";
 import Mysql from "../../public/mysql.png";
+import php from "../../public/php_1.png";
+import symfony from "../../public/symfony.png";
 import CV from "../../public/cvtech.png";
 
 import SwiperCore, {
@@ -32,6 +34,19 @@ SwiperCore.use([
 ]);
 
 const Competences = () => {
+  const skills = [
+    { src: Html5, alt: "Logo HTML5" },
+    { src: Css3, alt: "Logo CSS3" },
+    { src: Javascript, alt: "Logo JavaScript" },
+    { src: php, alt: "Logo PHP" },
+    { src: symfony, alt: "Logo Symfony" },
+    { src: Bootstrap, alt: "Logo Bootstrap" },
+    { src: Sass, alt: "Logo Sass" },
+    { src: Tailwind, alt: "Logo Tailwind" },
+    { src: Node, alt: "Logo Node.js" },
+    { src: Mongodb, alt: "Logo MongoDB" },
+    { src: Mysql, alt: "Logo MySQL" },
+  ];
   return (
     <section className="w-screen mt-20  " id="competences">
       <div className="flex justify-center items-center">
@@ -79,96 +94,18 @@ const Competences = () => {
           className="swiper-container    h-52 my-5 bg-gradient-to-l from-gray-300 via-gray-600 to-gray-600 hover:scale-150 focus:scale-x-150"
         >
           <ul className=" rounded-3xl m-0  ">
-            <SwiperSlide className="pt-2">
-              <Image
-                src={Html5}
-                width={150}
-                height={150}
-                quality={100}
-                alt="Logo HTML"
-                className=" rounded-3xl  "
-              />
-            </SwiperSlide>
-            <SwiperSlide className="pt-2">
-              <Image
-                src={Css3}
-                width={150}
-                height={150}
-                quality={100}
-                alt="Logo CSS3"
-                className=" rounded-3xl  "
-              />
-            </SwiperSlide>
-            <SwiperSlide className="pt-2">
-              <Image
-                src={Javascript}
-                width={150}
-                height={150}
-                quality={100}
-                alt="Logo de java"
-                className=" rounded-3xl  "
-              />
-            </SwiperSlide>
-            <SwiperSlide className="pt-2">
-              <Image
-                src={Bootstrap}
-                width={150}
-                height={150}
-                quality={100}
-                alt="Logo de bootstrap"
-                className=" rounded-3xl  "
-              />
-            </SwiperSlide>
-            <SwiperSlide className="pt-2">
-              <Image
-                src={Sass}
-                width={150}
-                height={150}
-                quality={100}
-                alt="Logo de Sass"
-                className=" rounded-3xl  "
-              />
-            </SwiperSlide>
-            <SwiperSlide className="pt-2">
-              <Image
-                src={Tailwind}
-                width={150}
-                height={150}
-                quality={100}
-                alt="Logo de Tailwind"
-                className=" rounded-3xl  "
-              />
-            </SwiperSlide>
-            <SwiperSlide className="pt-2">
-              <Image
-                src={Node}
-                width={150}
-                height={150}
-                quality={100}
-                alt="Logo de Node"
-                className=" rounded-3xl  "
-              />
-            </SwiperSlide>
-            <SwiperSlide className="pt-2">
-              <Image
-                src={Mongodb}
-                width={150}
-                height={150}
-                quality={100}
-                alt="Logo de Mongodb"
-                className=" rounded-3xl  "
-              />
-            </SwiperSlide>
-            <SwiperSlide className="pt-2">
-              <Image
-                src={Mysql}
-                width={150}
-                height={150}
-                quality={100}
-                alt="Logo de Mysql"
-                className=" rounded-3xl  "
-              />
-            </SwiperSlide>
+            {skills.map((skill, index) => (
+              <SwiperSlide className="pt-2">
+                <Image
+                  src={skill.src}
+                  width={150}
+                  height={150}
+                  quality={100}
+                  alt={skill.alt}
+                  className=" rounded-3xl  "
+                />
+              </SwiperSlide>
+            ))}
           </ul>
         </Swiper>
       </Bounce>

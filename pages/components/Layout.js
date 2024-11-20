@@ -9,11 +9,11 @@ const Layout = ({ children, page }) => {
         <meta charSet="utf-8" />
         <meta
           name="keywords"
-          content="Portfolio N'DIAYE cheikh el Hadramy développeur web React | Nodejs "
+          content="Portfolio N'DIAYE cheikh el Hadramy développeur web React | PHP/SYMFONY "
         />
         <meta
           name="description"
-          content="N'DIAYE Cheikh El Hadramy Portfolio développeur web React | Nodejs"
+          content="N'DIAYE Cheikh El Hadramy Portfolio développeur web React | PHP/SYMFONY"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="follow, index" />
