@@ -95,14 +95,14 @@ const Competences = () => {
         >
           <ul className=" rounded-3xl m-0  ">
             {skills.map((skill, index) => (
-              <SwiperSlide className="pt-2">
+              <SwiperSlide key={index} className="pt-2">
                 <Image
                   src={skill.src}
                   width={150}
                   height={150}
                   quality={100}
                   alt={skill.alt}
-                  className=" rounded-3xl  "
+                  className=" rounded-3xl  w-48 h-48 "
                 />
               </SwiperSlide>
             ))}

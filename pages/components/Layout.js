@@ -1,10 +1,17 @@
 import Head from "next/head";
+import { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const Layout = ({ children, page }) => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   return (
-    <div className="w-full grid  m-0 p-0 place-content-center   ">
+    <div className="w-full grid m-0 p-0 place-content-center">
       <Head>
         <meta charSet="utf-8" />
         <meta
@@ -23,15 +30,19 @@ const Layout = ({ children, page }) => {
         />
         <title>{page}</title>
       </Head>
-      <header>
-        <Navbar />
-      </header>
-      <main className=" bg-gradient-to-b from-gray-800 via-gray-500 to-gray-700  flex flex-col justify-center items-center  ">
-        {children}
-      </main>
-      <footer>
-        <Footer />
-      </footer>
+      {isClient ? (
+        <>
+          <header>
+            <Navbar />
+          </header>
+          <main className="bg-gradient-to-b from-gray-800 via-gray-500 to-gray-700 flex flex-col justify-center items-center">
+            {children}
+          </main>
+          <footer>
+            <Footer />
+          </footer>
+        </>
+      ) : null}
     </div>
   );
 };

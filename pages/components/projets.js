@@ -10,7 +10,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Projets = () => {
   return (
-    <div
+    (<div
       className="contentprojet flex flex-col justify-center items-center  pt-6  lg:items-center "
       id="projets"
     >
@@ -19,7 +19,6 @@ const Projets = () => {
           Mes Projets
         </h2>
       </div>
-
       <div className="card-maquette  md:grid grid-cols-2  gap-8 sm:flex flex-col justify-center items-center sm:my-8">
         <Fade
           triggerOnce
@@ -46,17 +45,23 @@ const Projets = () => {
                 </h3>
                 <div className="source flex flex-row justify-center w-96">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl transition duration-300 ease-in hover:bg-gray-100 hover:text-gray-900    ">
-                    <Link href="https://github.com/Hadidi09/projet_cv">
-                      <a target="_blank" rel="noopener">
+                    <Link
+                      href="https://github.com/Hadidi09/projet_cv"
+                      target="_blank"
+                      rel="noopener">
+                      
                         code source
-                      </a>
+                      
                     </Link>
                   </h4>
                   <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl transition duration-300 ease-in hover:bg-gray-100 hover:text-gray-900  ">
-                    <Link href="https://hadidi09.github.io/projet_cv/">
-                      <a target="_blank" rel="noopener">
+                    <Link
+                      href="https://hadidi09.github.io/projet_cv/"
+                      target="_blank"
+                      rel="noopener">
+                      
                         lien
-                      </a>
+                      
                     </Link>
                   </h4>
                 </div>
@@ -89,17 +94,23 @@ const Projets = () => {
                 </h3>
                 <div className="source flex flex-row justify-center w-96">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl transition duration-300 ease-in hover:bg-gray-100 hover:text-gray-900     ">
-                    <Link href="https://github.com/Hadidi09/N-DIAYE-cheikh-el-Hadramy_3_01-07-2020">
-                      <a target="_blank" rel="noopener">
+                    <Link
+                      href="https://github.com/Hadidi09/N-DIAYE-cheikh-el-Hadramy_3_01-07-2020"
+                      target="_blank"
+                      rel="noopener">
+                      
                         code source
-                      </a>
+                      
                     </Link>
                   </h4>
                   <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl transition duration-300 ease-in hover:bg-gray-100 hover:text-gray-900   ">
-                    <Link href="https://hadidi09.github.io/N-DIAYE-cheikh-el-Hadramy_3_01-07-2020/">
-                      <a target="_blank" rel="noopener">
+                    <Link
+                      href="https://hadidi09.github.io/N-DIAYE-cheikh-el-Hadramy_3_01-07-2020/"
+                      target="_blank"
+                      rel="noopener">
+                      
                         lien
-                      </a>
+                      
                     </Link>
                   </h4>
                 </div>
@@ -132,17 +143,23 @@ const Projets = () => {
                 </h3>
                 <div className="source flex flex-row justify-center w-96">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl transition duration-300 ease-in hover:bg-gray-100 hover:text-gray-900     ">
-                    <Link href="https://github.com/Hadidi09/Chouette-version-2">
-                      <a target="_blank" rel="noopener">
+                    <Link
+                      href="https://github.com/Hadidi09/Chouette-version-2"
+                      target="_blank"
+                      rel="noopener">
+                      
                         code source
-                      </a>
+                      
                     </Link>
                   </h4>
                   <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl transition duration-300 ease-in hover:bg-gray-100 hover:text-gray-900   ">
-                    <Link href="https://hadidi09.github.io/Chouette-version-2/">
-                      <a target="_blank" rel="noopener">
+                    <Link
+                      href="https://hadidi09.github.io/Chouette-version-2/"
+                      target="_blank"
+                      rel="noopener">
+                      
                         lien
-                      </a>
+                      
                     </Link>
                   </h4>
                 </div>
@@ -174,17 +191,23 @@ const Projets = () => {
                 </h3>
                 <div className="source flex flex-row justify-center w-96">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl transition duration-300 ease-in hover:bg-gray-100 hover:text-gray-900     ">
-                    <Link href="https://github.com/Hadidi09/Projet_5_Orinoco_JS">
-                      <a target="_blank" rel="noopener">
+                    <Link
+                      href="https://github.com/Hadidi09/Projet_5_Orinoco_JS"
+                      target="_blank"
+                      rel="noopener">
+                      
                         code source
-                      </a>
+                      
                     </Link>
                   </h4>
                   <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl transition duration-300 ease-in hover:bg-gray-100 hover:text-gray-900   ">
-                    <Link href="https://projet-5-orinoco-js.vercel.app/">
-                      <a target="_blank" rel="noopener">
+                    <Link
+                      href="https://projet-5-orinoco-js.vercel.app/"
+                      target="_blank"
+                      rel="noopener">
+                      
                         lien
-                      </a>
+                      
                     </Link>
                   </h4>
                 </div>
@@ -217,17 +240,23 @@ const Projets = () => {
                 </h3>
                 <div className="source flex flex-row justify-center w-96">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl transition duration-300 ease-in hover:bg-gray-100 hover:text-gray-900     ">
-                    <Link href="https://github.com/Hadidi09/P6-sopekocko">
-                      <a target="_blank" rel="noopener">
+                    <Link
+                      href="https://github.com/Hadidi09/P6-sopekocko"
+                      target="_blank"
+                      rel="noopener">
+                      
                         code source
-                      </a>
+                      
                     </Link>
                   </h4>
                   <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl transition duration-300 ease-in hover:bg-gray-100 hover:text-gray-900   ">
-                    <Link href="https://github.com/Hadidi09/P6-sopekocko">
-                      <a target="_blank" rel="noopener">
+                    <Link
+                      href="https://github.com/Hadidi09/P6-sopekocko"
+                      target="_blank"
+                      rel="noopener">
+                      
                         lien
-                      </a>
+                      
                     </Link>
                   </h4>
                 </div>
@@ -259,17 +288,23 @@ const Projets = () => {
                 </h3>
                 <div className="source flex flex-row justify-center w-96">
                   <h4 className=" w-max button bg-gray-700 text-white  p-4 shadow-2xl mx-2 rounded-3xl text-2xl transition duration-300 ease-in hover:bg-gray-100 hover:text-gray-900     ">
-                    <Link href="https://github.com/Hadidi09/Projet7-grouppomania">
-                      <a target="_blank" rel="noopener">
+                    <Link
+                      href="https://github.com/Hadidi09/Projet7-grouppomania"
+                      target="_blank"
+                      rel="noopener">
+                      
                         code source
-                      </a>
+                      
                     </Link>
                   </h4>
                   <h4 className="w-max bg-gray-700 text-white  p-4 shadow-2xl  mx-2 rounded-3xl text-2xl transition duration-300 ease-in hover:bg-gray-100 hover:text-gray-900   ">
-                    <Link href="https://github.com/Hadidi09/Projet7-grouppomania">
-                      <a target="_blank" rel="noopener">
+                    <Link
+                      href="https://github.com/Hadidi09/Projet7-grouppomania"
+                      target="_blank"
+                      rel="noopener">
+                      
                         lien
-                      </a>
+                      
                     </Link>
                   </h4>
                 </div>
@@ -283,7 +318,7 @@ const Projets = () => {
           Mon CV
         </h2>
       </div>
-    </div>
+    </div>)
   );
 };
 

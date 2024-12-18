@@ -31,38 +31,43 @@ const Footer = () => {
             <Link
               href="https://www.linkedin.com/in/cheikh-el-hadramy-n-diaye/"
               aria-label="lien linkedin"
+              target="_blank"
+              rel="noopener"
             >
-              <a target="_blank" rel="noopener">
-                <FontAwesomeIcon
-                  icon={["fab", "linkedin"]}
-                  size="7x"
-                  className="transition duration-300 ease-in  hover:text-blue-800  text-blue-600 "
-                />
-                <p className=" flex flex-col justify-center items-center bg-purple-500 rounded-xl mx-2 text-white  ">
-                  Linkedin
-                </p>
-              </a>
+              <FontAwesomeIcon
+                icon={["fab", "linkedin"]}
+                size="7x"
+                className="transition duration-300 ease-in  hover:text-blue-800  text-blue-600 "
+              />
+              <p className=" flex flex-col justify-center items-center bg-purple-500 rounded-xl mx-2 text-white  ">
+                Linkedin
+              </p>
             </Link>
           </div>
 
           <div>
-            <Link href="https://github.com/Hadidi09" aria-label="lien github">
-              <a target="_blank" rel="noopener">
-                <FontAwesomeIcon
-                  icon={["fab", "github"]}
-                  size="7x"
-                  className="transition duration-300 ease-in hover:text-black  text-gray-700 "
-                />
-                <p className=" flex flex-col justify-center items-center bg-purple-500 rounded-xl mx-2 text-white  ">
-                  Github
-                </p>
-              </a>
+            <Link
+              href="https://github.com/Hadidi09"
+              aria-label="lien github"
+              target="_blank"
+              rel="noopener"
+            >
+              <FontAwesomeIcon
+                icon={["fab", "github"]}
+                size="7x"
+                className="transition duration-300 ease-in hover:text-black  text-gray-700 "
+              />
+              <p className=" flex flex-col justify-center items-center bg-purple-500 rounded-xl mx-2 text-white  ">
+                Github
+              </p>
             </Link>
           </div>
         </div>
       </div>
-
-      <div className=" copyright flex justify-center items-center w-max bg-gray-900 text-white rounded-3xl p-3 mb-5 transition duration-300 ease-in hover:bg-gray-700  cursor-pointer">
+      <div
+        className=" copyright flex justify-center items-center w-max bg-gray-900 text-white rounded-3xl p-3 mb-5 transition duration-300 ease-in hover:bg-gray-700  cursor-pointer"
+        suppressHydrationWarning
+      >
         Portfolio N'DIAYE Cheikh El Hadramy &copy; {currentYear} All rights
         reserved
       </div>

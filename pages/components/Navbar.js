@@ -27,9 +27,13 @@ const Navbar = () => {
   });
   return (
     <nav className=" bg-gray-500 p-4 ">
-      <div className="flex items-center justify-between flex-wrap ">
+      <div
+        className="flex items-center justify-between flex-wrap "
+        suppressHydrationWarning
+      >
         <div className="logo p-4 text-3xl rounded-3xl text-white bg-gray-900 ">
           <svg
+            suppressHydrationWarning
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
             viewBox="0 0 20 20"
@@ -52,6 +56,7 @@ const Navbar = () => {
             {!toggle ? (
               <>
                 <svg
+                  suppressHydrationWarning
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
                   fill="none"
@@ -69,6 +74,7 @@ const Navbar = () => {
             ) : (
               <>
                 <svg
+                  suppressHydrationWarning
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
                   fill="none"
@@ -93,24 +99,24 @@ const Navbar = () => {
             largeur > 801 ? "inline-grid grid-cols-4 gap-x-2 p-4  " : "hidden"
           }
         >
-          <Link href="#description">
+          <Link href="#description" legacyBehavior>
             <button className="p-2 mx-2 transition  duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase after:block after:bg-blue-500 ">
               À propos
             </button>
           </Link>
 
-          <Link href="#competences">
+          <Link href="#competences" legacyBehavior>
             <button className="p-2 mx-2 transition  duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               Compétences
             </button>
           </Link>
 
-          <Link href="#projets">
+          <Link href="#projets" legacyBehavior>
             <button className="p-2 mx-2 transition  duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               Projets
             </button>
           </Link>
-          <Link href="#resume">
+          <Link href="#resume" legacyBehavior>
             <button className="p-2 mx-2 transition  duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
               Mon CV
             </button>
@@ -129,24 +135,24 @@ const Navbar = () => {
         >
           <div className=" flex justify-center">
             <div className="navigation flex justify-center flex-col ">
-              <Link href="#description">
+              <Link href="#description" legacyBehavior>
                 <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
                   À propos
                 </button>
               </Link>
 
-              <Link href="#competences">
+              <Link href="#competences" legacyBehavior>
                 <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
                   Compétences
                 </button>
               </Link>
 
-              <Link href="#projets">
+              <Link href="#projets" legacyBehavior>
                 <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
                   Projets
                 </button>
               </Link>
-              <Link href="#resume">
+              <Link href="#resume" legacyBehavior>
                 <button className="p-2 my-2 transition duration-700 ease-out transform hover:bg-gray-700 hover:scale-125 rounded-3xl bg-gray-900 text-white uppercase">
                   Mon CV
                 </button>
